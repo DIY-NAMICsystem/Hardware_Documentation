@@ -1,36 +1,27 @@
-**[What is AIM?](#what-is-AIM?)** |
-**[Background](#background)** |
-**[Introduction](#introduction)** |
-**[Benefits](#benefits)** |
-**[Development](#development)** |
-
-**[Contact](#contact)** |
 
 # Arduino Intelligent Modules (AIM) for Behavioral Neuroscientists
 
 INCLUDE PICTURE HERE!
 
 ### What is AIM?
-_____
 
-Customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration to a couple weeks, and thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
+AIM is a customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration to a couple weeks, and thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
-
 ### Background - Current Limitations in Behavioral Neuroscience Research
-_____
 
-Many psychiatric disorders emerge during adolescence [[1]](https://www.ncbi.nlm.nih.gov/pubmed/28198416), necessitating a careful study of this period in order to understand the mechanisms and events that trigger these varied disorders. To study rodent behavior, behavioral neuroscientists have traditionally used operant boxes from [Med Associates](https://www.med-associates.com/). While these boxes offer diverse and reliable paradigms to test unique behavioral phenotypes of adolescents [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453624/), most of the paradigms require months to train the subjects. Considering that the adolescence period in mice span only about 2 weeks, this temporal constraint poses a significant hindrance to studying the adolescence period in a controlled environment.
+Many psychiatric disorders emerge during adolescence [[1]](https://www.ncbi.nlm.nih.gov/pubmed/28198416), necessitating a careful study of this period in order to prevent these disorders from the onset. To study rodent behavior, behavioral neuroscientists have traditionally used operant boxes from [Med Associates](https://www.med-associates.com/). While these boxes offer diverse and reliable paradigms to test unique behavioral phenotypes of adolescents [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453624/), most of the paradigms require months to train the subjects. Considering that the adolescence period in mice span only about 2 weeks, this temporal constraint poses a significant hindrance to studying adolescence in a controlled environment.
 
 ### Introduction
 _____
 
-A major reason why the paradigms take weeks to just complete the training phase is because mice are not exposed to the paradigms around the clock. Due to the design and nature of the Med Associates Operant boxes, mice can only be trained on a particular paradigm for a given amount of time per day. Coupled with the reality that most labs try to fit in multiple experiments in their set of operant boxes, the amount of time subjects have per day to learn a certain paradigm is severely limited.
+A major reason why the paradigms take weeks to just complete the training phase is because mice are not exposed to the paradigms around the clock and thus can't learn quickly. Due to the design and nature of the Med Associates Operant boxes, mice can only be trained on a particular paradigm for a given amount of time per day. Coupled with the reality that most labs try to fit in multiple experiments in their set of operant boxes, the amount of time subjects have per day to learn a certain paradigm is severely limited.
 
-Our lab's solution to this problem was to create a home-cage based operant box so that mice are exposed to paradigms 24 hours a day and can self-pace their learning. While this solution has its limitations such as the inability to group-house animals, it offers many more benefits such as the following. 
+Our lab's solution to this problem was to create a home-cage based operant box so that mice are exposed to paradigms 24 hours a day and can self-pace their learning. While this solution has its limitations such as the inability to group-house animals, it offers many more advantages such as the following.
 
-### Benefits 
+#### Advantages of using AIM
+_____
 
 1. Subjects have *ad libitum* access to food and can earn unlimited water rewards depending on their task performance. *Ad libitum* access prevents pronounced weight loss, a putative stress-inducing factor for mice.
 
@@ -46,27 +37,29 @@ Our lab's solution to this problem was to create a home-cage based operant box s
 
 7. All design files and code are open source - Contribution from members of the research community will improve this project and set forth new avenues for better tools in behavioral neuroscience research.
 
+### Hardware Documentations
 
+The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
 
+AIM is divided into three different repositories. This repository contains the **hardware** build instructions for AIM. The [second repository](https://github.com/jhl0204/DNAMIC_Arduino_Software_Programs) contains the corresponding **behavioral paradigms** for AIM. The [last repository](https://github.com/jhl0204/DNAMIC_Data_Analysis) contains Python codes for **data analysis** of the behavioral output. Data analysis code is currently in development to create a python package.
 
-In order to mitigate stress induced from single housing, we have included various nestlet material and mice igloos
-the following benefits:
+The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipython.org/) and is read-only.
 
+#### Contents
 
+* [**Chapter 0 - Introduction**](aa) Why we need Arduino Intelligent Modules (AIM)
+* [**Chapter 1 - Getting Started: Essential Tips and Tricks:**](aa)
+* [**Chapter 2 - Modifying the Rodent Cage**](aa)
+* [**Chapter 3 - Noseports and Plexiglass**](aa) Design files and the philosophy behind the designs
+* [**Chapter 4 - OM1 Shield**](aa) Expanding the functionalities of Arduino UNO
+* [**Chapter 5 - Component Assembly: LED**](aa)
+* [**Chapter 6 - Component Assembly: Infrared Detectors**](aa)
+* [**Chapter 7 - Component Assembly: Solenoid Valves**](aa)
+* [**Chapter 8 - Component Assembly: Reward Spout**](aa)
+* [**Chapter 9 - Component Assembly: Pushbuttons**](aa)
+* [**Chapter 10 - Wiring and Soldering**](aa)
 
-
-### Our Solution
-
-
-### Benefits
-
-1. low-cost
-
-    Having it in a hoe cage offers other benefits
-2. less animal handling - more ethological
-
-
-### New Methods
+* [**Appendix - Bill of Materials**](aa)  (wiki)
 
 
 ### Other open-source projects in the behavioral neuroscience community
