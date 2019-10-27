@@ -1,4 +1,4 @@
-**[What is AIM?](#what-is-AIM?)** |
+**[What is AIM?](#what is AIM?)** |
 **[Background](http://jupyterlab.readthedocs.io)** |
 **[Introduction](#contributing)** |
 **[Development](#development)** |
