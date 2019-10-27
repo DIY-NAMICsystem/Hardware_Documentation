@@ -1,8 +1,9 @@
-**[What is AIM?](#what is AIM?)** |
-**[Background](http://jupyterlab.readthedocs.io)** |
-**[Introduction](#contributing)** |
+**[What is AIM?](#what-is-AIM?)** |
+**[Background](#background)** |
+**[Introduction](#introduction)** |
+**[Benefits](#benefits)** |
 **[Development](#development)** |
-**[Team](#team)** |
+
 **[Contact](#contact)** |
 
 # Arduino Intelligent Modules (AIM) for Behavioral Neuroscientists
