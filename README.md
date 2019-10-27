@@ -4,15 +4,18 @@ INCLUDE PICTURE HERE!
 
 ## What is it?
 
+
 Customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration to a couple weeks, and thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
+_____
 
-### Background - Current Limitations
+### Background - Current Limitations in Behavioral Neuroscience Research
 
 Many psychiatric disorders emerge during adolescence [[1]](https://www.ncbi.nlm.nih.gov/pubmed/28198416), necessitating a careful study of this period in order to understand the mechanisms and events that trigger these varied disorders. To study rodent behavior, behavioral neuroscientists have traditionally used operant boxes from [Med Associates](https://www.med-associates.com/). While these boxes offer diverse and reliable paradigms to test unique behavioral phenotypes of adolescents [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453624/), most of the paradigms require months to train the subjects. Considering that the adolescence period in mice span only about 2 weeks, this temporal constraint poses a significant hindrance to studying the adolescence period in a controlled environment.
 
 ### Introduction
+_____
 
 A major reason why the paradigms take weeks to just complete the training phase is because mice are not exposed to the paradigms around the clock. Due to the design and nature of the Med Associates Operant boxes, mice can only be trained on a particular paradigm for a given amount of time per day. Coupled with the reality that most labs try to fit in multiple experiments in their set of operant boxes, the amount of time subjects have per day to learn a certain paradigm is severely limited.
 
@@ -65,6 +68,7 @@ the following benefits:
 
 
 ### Development
+_____
 
 ##### What to Contribute
 
@@ -90,4 +94,4 @@ Thank you to undergraduate researchers **Bonnie Shea** and **Selin Capan** for a
 
 #### Contact
 
-For any questions or issues, contact the main author, Jun Ho Lee at jun.ho.lee@dartmouth.edu or the corresponding author Katherine Nautiyal at katherine.nautiyal@dartmouth.edu.
+For any questions or issues, contact the main author, **Jun Ho Lee** at jun.ho.lee@dartmouth.edu or the corresponding author **Katherine Nautiyal** at katherine.nautiyal@dartmouth.edu.
