@@ -2,28 +2,33 @@
 # Arduino Intelligent Modules (AIM) for Behavioral Neuroscientists
 
 
-![Mouse Interaction Gif](https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif)
-
-**Figure 1:** *Mouse interacting with the AIM box - Currently retrieving water reward in the middle port.*
-
 <p align="center">
-  <img src="readme_imgs/diagonal_view.jpg" align=center width=400/><br>
-    <br>
+    <img src="https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif" align=center width=500/><br>
+    <b><i>Figure 1:</b> Mouse interacting with the AIM box - Currently retrieving water reward from the middle port.</i>
+</p>
+
+
+<p align="left">
+  <img src="readme_imgs/diagonal_view.jpg" align=center width=300/><br>
     <b><i>Figure 2:</b> Diagonal View of AIM</i>
 </p>
 
 <p align="center">
-  <img src="readme_imgs/top_view.jpg" align=center width=400/><br>
-    <br>
+  <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
     <b><i>Figure 3:</b> Top View of AIM</i>
+</p>
+
+<p align="right">
+  <img src="readme_imgs/side_view.png" align=center width=300/><br>
+    <b><i>Figure 4:</b> Side View of AIM</i>
 </p>
 
 <p align="center">
   <img src="readme_imgs/boxes_in_action.png" align=center width=400/><br>
     <br>
-    <b><i>Figure 4:</b> AIM boxes in operation within our lab satellite room. Data is collected automatically by Processing software to a computer in the next room.</i>
 </p>
 
+**Figure 5:** *AIM boxes in operation within our lab satellite room. Data is collected automatically by Processing software to a computer in the next room.*
 ___
 
 ### What is AIM?
