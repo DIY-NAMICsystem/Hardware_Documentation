@@ -9,7 +9,10 @@
 
 **Figure 2:** *Diagonal View of AIM*
 
+<div style="float: center; margin-bottom:10px">
 <img title="figure_3" style="float: center; margin-left: 5px" src="readme_imgs/top_view.jpg" align=center width=400/>
+</div>
+
 
 **Figure 3:** *Top View of AIM*
 
