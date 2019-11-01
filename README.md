@@ -14,18 +14,17 @@
 </p>
 
 <p align="center">
-  <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
-    <b><i>Figure 3:</b> Top View of AIM</i>
+  <img src="readme_imgs/side_view.jpg" align=center width=300/><br>
+    <b><i>Figure 3:</b> Side View of AIM</i>
 </p>
 
 <p align="right">
-  <img src="readme_imgs/side_view.png" align=center width=300/><br>
-    <b><i>Figure 4:</b> Side View of AIM</i>
+  <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
+    <b><i>Figure 4:</b> Top View of AIM</i>
 </p>
 
 <p align="center">
   <img src="readme_imgs/boxes_in_action.png" align=center width=400/><br>
-    <br>
 </p>
 
 **Figure 5:** *AIM boxes in operation within our lab satellite room. Data is collected automatically by Processing software to a computer in the next room.*
@@ -33,7 +32,7 @@ ___
 
 ### What is AIM?
 
-AIM is a customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration to a couple weeks, and thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
+AIM is a customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration from months to a couple weeks, thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
