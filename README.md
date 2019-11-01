@@ -21,6 +21,8 @@
 <p align="right">
   <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
     <b><i>Figure 4:</b> Top View of AIM</i>
+    <br>
+    <br>
 </p>
 
 <p align="center">
@@ -36,7 +38,8 @@ AIM is a customizable, low-cost operant box to train and test various paradigms 
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
-### Hardware Documentations
+___
+### Overview of Project AIM
 
 The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
 
@@ -60,7 +63,7 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 
 * [**Appendix - Bill of Materials**](aa)  (wiki)
 
-
+____
 ### Other open-source projects in the behavioral neuroscience community
 
 1. [Feeding Experimentation Device (FED) - Kravitz Lab](https://github.com/KravitzLab/FED)
