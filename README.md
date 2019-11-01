@@ -1,41 +1,30 @@
 
 # Arduino Intelligent Modules (AIM) for Behavioral Neuroscientists
 
-INCLUDE PICTURE HERE!
+![Mouse Interaction Gif](https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif)
+
+**Figure 1:** *Mouse interacting with the AIM box - Currently retrieving water reward in the middle port.*
+
+
+<img title="figure_2" style="float: left; margin-left: 5px" src="readme_imgs/diagonal_view.jpg" align=center width=300/>
+
+**Figure 2:** *Diagonal View of AIM*
+
+<img title="figure_3" style="float: left; margin-left: 5px" src="readme_imgs/top_view.jpg" align=center width=300/>
+
+**Figure 3:** *Top View of AIM*
+
+<img title="figure_4" style="float: left; margin-left: 5px" src="readme_imgs/boxes_in_action.png" align=center width=300/>
+
+**Figure 4:** *10 running AIM boxes within our lab satellite room. Data is collected automatically to a computer in the next room.*
+___
+
 
 ### What is AIM?
 
 AIM is a customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration to a couple weeks, and thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
-
-### Background - Current Limitations in Behavioral Neuroscience Research
-
-Many psychiatric disorders emerge during adolescence [[1]](https://www.ncbi.nlm.nih.gov/pubmed/28198416), necessitating a careful study of this period in order to prevent these disorders from the onset. To study rodent behavior, behavioral neuroscientists have traditionally used operant boxes from [Med Associates](https://www.med-associates.com/). While these boxes offer diverse and reliable paradigms to test unique behavioral phenotypes of adolescents [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453624/), most of the paradigms require months to train the subjects. Considering that the adolescence period in mice span only about 2 weeks, this temporal constraint poses a significant hindrance to studying adolescence in a controlled environment.
-
-### Introduction
-_____
-
-A major reason why the paradigms take weeks to just complete the training phase is because mice are not exposed to the paradigms around the clock and thus can't learn quickly. Due to the design and nature of the Med Associates Operant boxes, mice can only be trained on a particular paradigm for a given amount of time per day. Coupled with the reality that most labs try to fit in multiple experiments in their set of operant boxes, the amount of time subjects have per day to learn a certain paradigm is severely limited.
-
-Our lab's solution to this problem was to create a home-cage based operant box so that mice are exposed to paradigms 24 hours a day and can self-pace their learning. While this solution has its limitations such as the inability to group-house animals, it offers many more advantages such as the following.
-
-#### Advantages of using AIM
-_____
-
-1. Subjects have *ad libitum* access to food and can earn unlimited water rewards depending on their task performance. *Ad libitum* access prevents pronounced weight loss, a putative stress-inducing factor for mice.
-
-2. Subjects undergo decreased animal handling since experimenters do not have to transfer mice to the operant boxes for training/testing. Animal handling is also a putative stress-inducing factor that is a confounder for mice behavior.
-
-3. Subjects do not have to acclimatize to a new environment (Med Associates operant boxes) for paradigm training/testing. Exposure to new environment is another putative confounder for mice behavior especially in adolescence period when novelty seeking behavior is high.
-
-4. 24 hour automated data collection, which allows high temporal resolution data and obviates most of labor-intensive work for the experimenter.
-
-5. Compatible with standard laboratory colony caging setups.
-
-6. Inexpensive and low-cost relative to traditional Med Associates operant boxes, making high throughput experiments feasible.
-
-7. All design files and code are open source - Contribution from members of the research community will improve this project and set forth new avenues for better tools in behavioral neuroscience research.
 
 ### Hardware Documentations
 
