@@ -5,20 +5,18 @@
 
 **Figure 1:** *Mouse interacting with the AIM box - Currently retrieving water reward in the middle port.*
 
-
-<img title="figure_2" style="float: left; margin-left: 5px" src="readme_imgs/diagonal_view.jpg" align=center width=300/>
+<img title="figure_2" style="float: center; margin-left: 5px" src="readme_imgs/diagonal_view.jpg" align=center width=400/>
 
 **Figure 2:** *Diagonal View of AIM*
 
-<img title="figure_3" style="float: left; margin-left: 5px" src="readme_imgs/top_view.jpg" align=center width=300/>
+<img title="figure_3" style="float: center; margin-left: 5px" src="readme_imgs/top_view.jpg" align=center width=400/>
 
 **Figure 3:** *Top View of AIM*
 
-<img title="figure_4" style="float: left; margin-left: 5px" src="readme_imgs/boxes_in_action.png" align=center width=300/>
+<img title="figure_4" style="float: center; margin-left: 5px" src="readme_imgs/boxes_in_action.png" align=center width=400/>
 
-**Figure 4:** *10 running AIM boxes within our lab satellite room. Data is collected automatically to a computer in the next room.*
+**Figure 4:** *AIM boxes in operation within our lab satellite room. Data is collected automatically by Processing software to a computer in the next room.*
 ___
-
 
 ### What is AIM?
 
