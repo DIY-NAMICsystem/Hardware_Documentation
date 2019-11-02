@@ -58,9 +58,9 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 * [**Chapter 7 - Component Assembly: Solenoid Valves**](aa)
 * [**Chapter 8 - Component Assembly: Reward Spout**](aa)
 * [**Chapter 9 - Component Assembly: Pushbuttons**](aa)
-* [**Chapter 10 - Wiring and Soldering**](aa)
+* [**Chapter 10 - Wiring and Soldering**]()
 
-* [**Appendix - Bill of Materials**](aa)  (wiki)
+* [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials) 
 
 ____
 ### Other open-source projects in the behavioral neuroscience community
@@ -83,7 +83,6 @@ _____
 - Your own tips, tricks, and experiences for any hardware projects.
 
 - If you decide to make AIMs yourself, send us photos and any hacks/design modifications that you made! We would love to see how this project expands!
-
 
 
 Feel free to open an issue or submit a pull request. All contributions are welcome! - there is no minor contribution. If you're unfamiliar with pull request workflow, feel free to email me with your contributions to jun.ho.lee@dartmouth.edu.
