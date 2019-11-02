@@ -1,5 +1,5 @@
 
-# Arduino Intelligent Modules (AIM) for Behavioral Neuroscientists
+# Arduino Instrumental Modules (AIM) for Behavioral Neuroscientists
 
 
 <p align="center">
@@ -7,18 +7,17 @@
     <b><i>Figure 1:</b> Mouse interacting with the AIM box - Currently retrieving water reward from the middle port.</i>
 </p>
 
-
 <p align="left">
   <img src="readme_imgs/diagonal_view.jpg" align=center width=300/><br>
     <b><i>Figure 2:</b> Diagonal View of AIM</i>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="readme_imgs/side_view.jpg" align=center width=300/><br>
     <b><i>Figure 3:</b> Side View of AIM</i>
 </p>
 
-<p align="right">
+<p align="left">
   <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
     <b><i>Figure 4:</b> Top View of AIM</i>
     <br>
@@ -49,7 +48,7 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 
 #### Contents
 
-* [**Chapter 0 - Introduction**](aa) Why we need Arduino Intelligent Modules (AIM)
+* [**Chapter 0 - Introduction**](aa) Why we need Arduino Instrumental Modules (AIM)
 * [**Chapter 1 - Getting Started: Essential Tips and Tricks:**](aa)
 * [**Chapter 2 - Modifying the Rodent Cage**](aa)
 * [**Chapter 3 - Noseports and Plexiglass**](aa) Design files and the philosophy behind the designs
