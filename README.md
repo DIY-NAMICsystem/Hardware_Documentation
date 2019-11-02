@@ -1,6 +1,5 @@
 
-# Arduino Instrumental Modules (AIM) 
-# for Behavioral Neuroscientists
+# Arduino Instrumental Modules (AIM) for Behavioral Neuroscientists
 
 
 <p align="center">
