@@ -43,13 +43,13 @@ ___
 AIM has a couple of key benefits for any behavioral neuroscience labs trying to study adolescene in rodents. 
 
 
-**1. Decreased Experiment Time**
+- **1. Decreased Experiment Time**
     - Because subjects have 24 hour access to a specific paradigm, they learn quickly. Paradigms that typically takes months to train can be completed in just a matter of two weeks. 
     
-**2. Inexpensive compared to traditional Med Associates Boxes.** 
+- **2. Inexpensive compared to traditional Med Associates Boxes.** 
     - All the materials used to make one AIM box only cost about **$200**. The software used to run the hardware is also free and open-source. In contrast, a typical Med Associates Box cost around $4000. The software rig that can control up to 8 Med Associates Boxes costs about $6,800. 
    
-There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]() 
+There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]().
 But most importantly, it saves ***YOU*** time and money, allowing you to focus on other important lab tasks and allocate grant money to other experiments. 
 
 ___
