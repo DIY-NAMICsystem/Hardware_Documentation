@@ -38,6 +38,21 @@ AIM is a customizable, low-cost operant box to train and test various paradigms 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
 ___
+### Why should you use AIM?
+
+AIM has a couple of key benefits for any behavioral neuroscience labs trying to study adolescene in rodents. 
+
+
+**1. Decreased Experiment Time**
+    - Because subjects have 24 hour access to a specific paradigm, they learn quickly. Paradigms that typically takes months to train can be completed in just a matter of two weeks. 
+    
+**2. Inexpensive compared to traditional Med Associates Boxes.** 
+    - All the materials used to make one AIM box only cost about **$200**. The software used to run the hardware is also free and open-source. In contrast, a typical Med Associates Box cost around $4000. The software rig that can control up to 8 Med Associates Boxes costs about $6,800. 
+   
+There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]() 
+But most importantly, it saves ***YOU*** time and money, allowing you to focus on other important lab tasks and allocate grant money to other experiments. 
+
+___
 ### Overview of Project AIM
 
 The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
