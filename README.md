@@ -13,7 +13,7 @@
 </p>
 
 <p align="left">
-  <img src="readme_imgs/side_view.jpg" align=center width=300/><br>
+  <img src="readme_imgs/side_view.png" align=center width=300/><br>
     <b><i>Figure 3:</b> Side View of AIM</i>
 </p>
 
