@@ -40,17 +40,17 @@ Most importantly, this is an open-source project - any contributions / suggestio
 ___
 ### Why should you use AIM?
 
-AIM has a couple of key benefits for any behavioral neuroscience labs trying to study adolescene in rodents. 
+AIM has a couple of key benefits for any behavioral neuroscience labs trying to study adolescene in rodents.
 
 
 - **1. Decreased Experiment Time**
-    - Because subjects have 24 hour access to a specific paradigm, they learn quickly. Paradigms that typically takes months to train can be completed in just a matter of two weeks. 
-    
-- **2. Inexpensive compared to traditional Med Associates Boxes.** 
-    - All the materials used to make one AIM box only cost about **$200**. The software used to run the hardware is also free and open-source. In contrast, a typical Med Associates Box cost around $4000. The software rig that can control up to 8 Med Associates Boxes costs about $6,800. 
-   
+    - Because subjects have 24 hour access to a specific paradigm, they learn quickly. Paradigms that typically takes months to train can be completed in just a matter of two weeks.
+
+- **2. Inexpensive compared to traditional Med Associates Boxes.**
+    - All the materials used to make one AIM box only cost about **$200**. The software used to run the hardware is also free and open-source. In contrast, a typical Med Associates Box cost around $4000. The software rig that can control up to 8 Med Associates Boxes costs about $6,800.
+
 There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]().
-But most importantly, it saves ***YOU*** time and money, allowing you to focus on other important lab tasks and allocate grant money to other experiments. 
+But most importantly, it saves ***YOU*** time and money, allowing you to focus on other important lab tasks and allocate grant money to other experiments.
 
 ___
 ### Overview of Project AIM
@@ -75,7 +75,7 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 * [**Chapter 9 - Component Assembly: Pushbuttons**](aa)
 * [**Chapter 10 - Wiring and Soldering**]()
 
-* [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials) 
+* [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
 
 ____
 ### Other open-source projects in the behavioral neuroscience community
