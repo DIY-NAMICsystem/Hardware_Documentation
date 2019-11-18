@@ -63,17 +63,16 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 
 #### Contents
 
-* [**Chapter 0 - Introduction**](aa) Why we need Arduino Instrumental Modules (AIM)
-* [**Chapter 1 - Getting Started: Essential Tips and Tricks:**](aa)
-* [**Chapter 2 - Modifying the Rodent Cage**](aa)
-* [**Chapter 3 - Noseports and Plexiglass**](aa) Design files and the philosophy behind the designs
-* [**Chapter 4 - OM1 Shield**](aa) Expanding the functionalities of Arduino UNO
-* [**Chapter 5 - Component Assembly: LED**](aa)
-* [**Chapter 6 - Component Assembly: Infrared Detectors**](aa)
-* [**Chapter 7 - Component Assembly: Solenoid Valves**](aa)
-* [**Chapter 8 - Component Assembly: Reward Spout**](aa)
-* [**Chapter 9 - Component Assembly: Pushbuttons**](aa)
-* [**Chapter 10 - Wiring and Soldering**]()
+* [**Chapter 0 - Background and Introduction**](aa) Why we need Arduino Instrumental Modules (AIM)
+* [**Chapter 1 - Getting Started - Essential Tips and_Tricks**](aa)
+* [**Chapter 2 - Modifying Rodent Cage**](aa)
+* [**Chapter 3 - OM1 Shield**](aa) *
+* [**Chapter 4 - Component Assembly - LED**](aa)
+* [**Chapter 5 - Component Assembly - Infrared Detectors**](aa)
+* [**Chapter 6 - Component Assembly - Solenoid Valves**](aa)
+* [**Chapter 7 - Component Assembly - Reward Spout**](aa)
+* [**Chapter 8 - Wiring and Soldering**](aa)
+* [**Chapter 9 - Final Assembly**](aa)
 
 * [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
 
