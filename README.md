@@ -63,15 +63,15 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 
 #### Contents
 
-* [**Chapter 0 - Background and Introduction**](aa) Why we need Arduino Instrumental Modules (AIM)
-* [**Chapter 1 - Getting Started - Essential Tips and_Tricks**](aa)
-* [**Chapter 2 - Modifying Rodent Cage**](aa)
-* [**Chapter 3 - OM1 Shield**](aa) *
-* [**Chapter 4 - Component Assembly - LED**](aa)
-* [**Chapter 5 - Component Assembly - Infrared Detectors**](aa)
-* [**Chapter 6 - Component Assembly - Solenoid Valves**](aa)
-* [**Chapter 7 - Component Assembly - Reward Spout**](aa)
-* [**Chapter 8 - Wiring and Soldering**](aa)
+* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) Why we need Arduino Instrumental Modules (AIM)
+* [**Chapter 1 - Getting Started - Essential Tips and_Tricks**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and_Tricks_vF.ipynb)
+* [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
+* [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
+* [**Chapter 4 - Component Assembly - LED**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_4.Component_Assembly-LED/4_Component_Assembly_LED_vF.ipynb)
+* [**Chapter 5 - Component Assembly - Infrared Detectors**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb)
+* [**Chapter 6 - Component Assembly - Solenoid Valves**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_6.Component_Assembly-Solenoid_Valves/6_Component_Assembly_Solenoid_Valves_vF.ipynb)
+* [**Chapter 7 - Component Assembly - Reward Spout**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_7.Component_Assembly-Reward_Spout/7_Component_Assembly_Reward_Spout_vF.ipynb)
+* [**Chapter 8 - Wiring and Soldering**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/tree/master/Chapter_8.Wiring_and_Soldering/)
 * [**Chapter 9 - Final Assembly**](aa)
 
 * [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
