@@ -2,6 +2,8 @@
 # Arduino Instrumental Modules (AIM) for Behavioral Neuroscientists
 
 
+##### Note: AIM is informally referred to as DNAMIC (Dartmouth Nautiyal Arduino Modular Instrumental Chamber) in the lab. Therefore I might use the two terms (AIM / DNAMIC) interchangeably to refer to the same thing.
+
 <p align="center">
     <img src="https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif" align=center width=500/><br>
     <b><i>Figure 1:</b> Mouse interacting with the AIM box - Currently retrieving water reward from the middle port.</i>
@@ -64,7 +66,7 @@ The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipyt
 #### Contents
 
 * [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) Why we need Arduino Instrumental Modules (AIM)
-* [**Chapter 1 - Getting Started - Essential Tips and_Tricks**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
+* [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
 * [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
 * [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
 * [**Chapter 4 - Component Assembly - LED**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_4.Component_Assembly-LED/4_Component_Assembly_LED_vF.ipynb)
