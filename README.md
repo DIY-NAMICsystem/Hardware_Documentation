@@ -33,7 +33,7 @@ ___
 
 ### What is DNAMIC?
 
-The DNAMIC box is a customizable, low-cost apparatus for automated homecage operant behavioral testing. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components, the boxes enables 24-hour data collection, significantly increasing trials/day without food or water restriction, and allowing for self-initiated trials during rodent's dark/active phase.  
+The DNAMIC box is a customizable, low-cost apparatus for automated homecage operant behavioral testing. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components, the boxes enable 24-hour data collection, significantly increasing trials/day without food or water restriction, and allowing for self-initiated trials during rodent's dark/active phase.  
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
