@@ -1,27 +1,25 @@
 
-# Arduino Instrumental Modules (AIM) for Behavioral Neuroscientists
+# Dartmouth-Nautiyal Arduino Modular Instrumental Conditioning (DNAMIC) Boxes for Behavioral Neuroscientists
 
-
-##### Note: AIM is informally referred to as DNAMIC (Dartmouth Nautiyal Arduino Modular Instrumental Chamber) in the lab. Therefore I might use the two terms (AIM / DNAMIC) interchangeably to refer to the same thing.
 
 <p align="center">
     <img src="https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif" align=center width=500/><br>
-    <b><i>Figure 1:</b> Mouse interacting with the AIM box - Currently retrieving water reward from the middle port.</i>
+    <b><i>Figure 1:</b> Mouse retrieving water reward during behavioral testing in the DNAMIC box.</i>
 </p>
 
 <p align="left">
   <img src="readme_imgs/diagonal_view.jpg" align=center width=300/><br>
-    <b><i>Figure 2:</b> Diagonal View of AIM</i>
+    <b><i>Figure 2:</b> Diagonal View </i>
 </p>
 
 <p align="left">
   <img src="readme_imgs/side_view.png" align=center width=300/><br>
-    <b><i>Figure 3:</b> Side View of AIM</i>
+    <b><i>Figure 3:</b> Side View </i>
 </p>
 
 <p align="left">
   <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
-    <b><i>Figure 4:</b> Top View of AIM</i>
+    <b><i>Figure 4:</b> Top View </i>
     <br>
     <br>
 </p>
@@ -30,32 +28,38 @@
   <img src="readme_imgs/boxes_in_action.png" align=center width=400/><br>
 </p>
 
-**Figure 5:** *AIM boxes in operation within our lab satellite room. Data is collected automatically by Processing software to a computer in the next room.*
+**Figure 5:** *DNAMIC boxes in operation in the vivarium on a standard ventilated rack. Data is collected automatically by Processing software to a computer in the next room.*
 ___
 
-### What is AIM?
+### What is DNAMIC?
 
-AIM is a customizable, low-cost operant box to train and test various paradigms in mice. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components. Enables 24-hour data collection, significantly reducing total experiment duration from months to a couple weeks, thus facilitating controlled studies on adolescent mice and revealing high temporal resolution data on mice behavior.
+The DNAMIC box is a customizable, low-cost apparatus for automated homecage operant behavioral testing. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components, the boxes enables 24-hour data collection, significantly increasing trials/day without food or water restriction, and allowing for self-initiated trials during rodent's dark/active phase.  
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
 ___
-### Why should you use AIM?
+### Benefits of DNAMIC boxes.
 
-AIM has a couple of key benefits for any behavioral neuroscience labs trying to study adolescene in rodents.
+1. Decreased Experiment Length
+Rodents have 24 hour access self-initiated trials allowing hundreds of trials per day. This allows for faster testing, reducing the number of days that many standard operant paradigms typically takes to run. This also permits testing during developmental time periods which can be very limited in rodents.
 
+2. Inexpensive compared to commercially available operant testing chambers
+All the materials used to make one DNAMIC box cost around $200, compared to$4000-$10,000 for the commercially-available units, which have limited customizability.
 
-- **1. Decreased Experiment Time**
-    - Because subjects have 24 hour access to a specific paradigm, they learn quickly. Paradigms that typically takes months to train can be completed in just a matter of two weeks.
+3. No food or water restriction
+Mice consume their normal daily intake of water, and no food deprivation is required.  The sated condition is important for the interpretation of many behavioral effects.  Additionally, this allows testing during development when food/water deprivation can be deleterious to growth.
 
-- **2. Inexpensive compared to traditional Med Associates Boxes.**
-    - All the materials used to make one AIM box only cost about **$200**. The software used to run the hardware is also free and open-source. In contrast, a typical Med Associates Box cost around $4000. The software rig that can control up to 8 Med Associates Boxes costs about $6,800.
+4. Reduced daily experimenter effort
+There is minimal daily effort required from the experimenter, since mice are living in their homecage, and data is logged in realtime.
+
+5. More ethologically-relevant testing
+Through self-initiated trials, mice can perform during their standard dark/active phase of the light-dark cycle. 
 
 There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]().
-But most importantly, it saves ***YOU*** time and money, allowing you to focus on other important lab tasks and allocate grant money to other experiments.
+
 
 ___
-### Overview of Project AIM
+### Overview
 
 The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
 
