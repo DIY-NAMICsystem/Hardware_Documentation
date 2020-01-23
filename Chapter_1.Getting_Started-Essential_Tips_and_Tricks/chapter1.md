@@ -38,8 +38,8 @@ To make our DNAMIC boxes, we need the following major components: PCB / LEDs / I
 Using the multimeter on the PCB is fairly straightforward. If you want to verify connections between two points, you can probe it using the clips. If It’s connected, you should hear a beep. Using the multimeter on LEDs is simple as well. Once you connect them correctly, ***(cathode to GND / anode to PWR)*** the LED will light up (you will not hear any beeps). For IR LEDs, you won’t “see” the IRs light up because human eyes can’t detect infrared light but ***there are [tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb) you can use to "see" the IRs***. For solenoids, it’s a little different story. If you test out the two leads, although the two leads are not touching each other, the multimeter will give you a beep. How could that be? Is there a short circuit? Did the solenoid valve get broken right out of the package?
 
 <p align="center">
-<img title = "solenoid" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/solenoid.jpg?raw=true" align=center width=200/<br>
-<b><i>Figure 3:</b> Red arrow indicates Power (PWR) and the black arrow indicates Ground (GND) </i>
+  <img title = "solenoid" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/solenoid.jpg?raw=true" align=center width=200/<br>
+  <b><i>Figure 3:</b> Red arrow indicates Power (PWR) and the black arrow indicates Ground (GND) </i>
 </p>   
 
 Quite the contrary. I talk about this in the [solenoid valve section](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_6.Component_Assembly-Solenoid_Valves/6_Component_Assembly_Solenoid_Valves_vF.ipynb), but the solenoids are actually continuous cylindrical coil of wire. The two leads you see in **Figure 3** are actually two ends of the same wire. The cylindrical coil is hidden inside the component. The exact resistance of the coil will depend on a lot of things, but it will tend to be very low and seem like a short circuit. If they don't have a low resistance, then it's likely that the wire has broken internally, and the valve is dead. So to sum it up, the “beep” you hear when you test out the continuity on the solenoid valves means that the valves are working!
@@ -49,7 +49,8 @@ Quite the contrary. I talk about this in the [solenoid valve section](https://nb
 Breaking off header pins (especially female types) correctly is surprisingly difficult. If you try breaking them off with a wire cutter, you’ll notice that often times you end up with one less header than you intended because the encasings break off. Thus, this method of using the wire cutters is very unreliable when you want to get a specific length of the header pins.
 
 <p align="center">
-<img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/<br><b><i> Figure 4:</b> Two types of header pins – Female (red circle) and Male (green circle) pins. </i>
+  <img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/<br>
+  <b><i> Figure 4:</b> Two types of header pins – Female (red circle) and Male (green circle) pins. </i>
 </p>
 
 <p align="center">
