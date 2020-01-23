@@ -14,12 +14,12 @@ Multimeters are by far the most useful and most important debugging tool you’l
 Multimeters can measure a lot of things including continuity, resistance, voltage, current, capacitance etc. But the most useful functionality (in my opinion) is the continuity / diode testing mode. This functionality allows you to check if a diode is working or not (which has directionality), and whether two points in a circuit are electrically connected or not. The multimeter will beep (output of a piezo buzzer) if the two points are connected and will light up the LED if the cathode is connected to GND and anode is connected to PWR. But always remember to turn the knob to continuity / diode testing mode before testing anything! Otherwise the multimeter would be powered off.
 
 <p align="center">
-    <img src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/multimeter.jpg?raw=true" align=center width=200/<br>
+    <img title = "multimeter" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/multimeter.jpg?raw=true" align=center width=200/><br>
     <b><i>Figure 1:</b> Continuity test mode shown on the multimeter (white circle). The value on the display indicate the resistance value. Value “1” signifies that it’s an open loop. </i>
 </p>
 
 <p align="center">
-    <img title = "continuity_symbol" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/continuity_symbol.jpg?raw=true" align=center width=200/<br>
+    <img title = "continuity_symbol" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/continuity_symbol.jpg?raw=true" align=center width=200/><br>
     <b><i>Figure 2:</b> Close up view of the continuity / diode testing option </i>
 </p>
 
@@ -38,7 +38,7 @@ To make our DNAMIC boxes, we need the following major components: PCB / LEDs / I
 Using the multimeter on the PCB is fairly straightforward. If you want to verify connections between two points, you can probe it using the clips. If It’s connected, you should hear a beep. Using the multimeter on LEDs is simple as well. Once you connect them correctly, ***(cathode to GND / anode to PWR)*** the LED will light up (you will not hear any beeps). For IR LEDs, you won’t “see” the IRs light up because human eyes can’t detect infrared light but ***there are [tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb) you can use to "see" the IRs***. For solenoids, it’s a little different story. If you test out the two leads, although the two leads are not touching each other, the multimeter will give you a beep. How could that be? Is there a short circuit? Did the solenoid valve get broken right out of the package?
 
 <p align="center">
-  <img title = "solenoid" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/solenoid.jpg?raw=true" align=center width=200/<br>
+  <img title = "solenoid" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/solenoid.jpg?raw=true" align=center width=200/><br>
   <b><i>Figure 3:</b> Red arrow indicates Power (PWR) and the black arrow indicates Ground (GND) </i>
 </p>   
 
@@ -49,12 +49,12 @@ Quite the contrary. I talk about this in the [solenoid valve section](https://nb
 Breaking off header pins (especially female types) correctly is surprisingly difficult. If you try breaking them off with a wire cutter, you’ll notice that often times you end up with one less header than you intended because the encasings break off. Thus, this method of using the wire cutters is very unreliable when you want to get a specific length of the header pins.
 
 <p align="center">
-  <img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/<br>
+  <img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/><br>
   <b><i> Figure 4:</b> Two types of header pins – Female (red circle) and Male (green circle) pins. </i>
 </p>
 
 <p align="center">
- <img title = "figure_5" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_5.png?raw=true" align=center width=300/<br><b><i> Figure 5:</b> An example of an improper way of breaking off pins. Notice that the metal header pin has fallen off from the black encasing.</i>
+ <img title = "figure_5" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_5.png?raw=true" align=center width=300/><br><b><i> Figure 5:</b> An example of an improper way of breaking off pins. Notice that the metal header pin has fallen off from the black encasing.</i>
  </p>
 
 --------------
