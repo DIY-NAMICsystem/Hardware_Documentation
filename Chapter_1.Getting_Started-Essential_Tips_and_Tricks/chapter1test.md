@@ -49,7 +49,7 @@ Quite the contrary. I talk about this in the [solenoid valve section](https://nb
 Breaking off header pins (especially female types) correctly is surprisingly difficult. If you try breaking them off with a wire cutter, you’ll notice that often times you end up with one less header than you intended because the encasings break off. Thus, this method of using the wire cutters is very unreliable when you want to get a specific length of the header pins.
 
 <p align="center">
-  <img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/><br>
+  <img title = "figure_4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/figure_4.png?raw=true" align=center width=300/><br><br>
   <b><i> Figure 4:</b> Two types of header pins – Female (red circle) and Male (green circle) pins. </i>
 </p>
 
