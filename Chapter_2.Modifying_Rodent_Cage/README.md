@@ -2,26 +2,11 @@
 
 As previously described in the [introduction](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb), the main objective of the project was to enable adolescent studies in mice. Our solution was to utilize their home cages as "operant boxes" so that we could capture 100% of their behavior during the adolescent stage. In this chapter, the standard rodent cage is modified for DIY-NAMIC. Using a Dremel to expose a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
 
-### About the Rodent Cages
+### Rodent Cages
 
-Our animal facility currently has four types of rodent cages. The dimensions are identical by eye (I didn’t have access to the exact blueprint), but they have salient differences. One difference among the cages is that they either have or don't have a metal flap on the back (**Figure 1**). Another difference is the shape of the curvature at the base of the cage. One is rounder with the angles more gradual (top cage in **Figure 2**), and the other one is flatter at the base, with sharper angles (bottom cage in **Figure 2**).
+This section will require modification based on the available rodent caging systems.
 
-<p align="center">
-    <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_2.Modifying_Rodent_Cage/imgs/Figure_1.png?raw=true" align=center width=300/><br><br>
-    <b><i>Figure 1:</b> Difference between the ‘flap’ cages. Notice the metal flap (red circle) in the left cage and the absence of the metal flap in the right cage </i>
-</p>
-
-<p align="center">
-    <img title = "figure2" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_2.Modifying_Rodent_Cage/imgs/Figure_2.png?raw=true" align=center width=300/><br><br>
-    <b><i>Figure 2:</b> Difference between the ‘slant’ cages. Notice the difference in curvature of the cages (red curve). The <b> old </b> cages have gradual angles whereas the <b> new </b> cages have sharper angles. </i>
-</p>
-
-For our purposes however, the differences are insignificant. We just need to gain access to one cross-section of the cage so that we can attach our U-channels. The U-channel positions are what matters in the end to maximize the floor area of the cage (for animal welfare reasons per [IACUC Guide](https://grants.nih.gov/grants/olaw/guide-for-the-care-and-use-of-laboratory-animals.pdf)). The floor area of the cage will depend on the position of the bottom U-channel. The bottom U-channel position will subsequently determine the side U-channel positions (since the side and bottom must be aligned for the plexiglass to slide in), which will determine how deep or shallow the plexiglass will be positioned in the cage.
-
-> Initially, you have to design the plexiglass that will fit into the cage attached with U-channels. For the purposes of this chapter however, I will assume that you have already made a plexiglass that fits in the cage. See this [link]() LINKE LINKE! on how to prototype a sample **"plexiglass"** using cardboard.
-
-
-Based on the provided [plexiglass design]() (LINK LINKE LINK to files within github repo), the best **location** for the bottom U-channel is where the two studded circles gently protrude out **(Figure 3)**. Connect those two circles with a Sharpie marker so that it is easy to align and position the bottom U-channel when gluing it on later.
+The plexiglass wall will also need to be modified to fit the relevant homecage [plexiglass design]() (LINK LINKE LINK to files within github repo)
 
 > This **location** was chosen due to the design of the cage hopper and the plexiglass. Positioning the U-channel at this location will minimize the gaps between the metal hopper and the plexiglass, preventing mice from escaping from their cages **(Figure 4 and Figure 5).**
 
