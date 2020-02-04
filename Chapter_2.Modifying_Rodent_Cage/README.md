@@ -1,10 +1,6 @@
 ### Introduction
 
-As previously described in the [introduction](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb), the main objective of the project was to enable adolescent studies in mice. Our solution was to utilize their home cages as "operant boxes" so that we could capture 100% of their behavior during the adolescent stage. In this chapter, we will explain how to modify the rodent cage to be used for DNAMIC boxes.
-
-***Note: This section is based on the cages provided by our animal facility. Cage specifications will differ by labs, so keep this in mind while reading!***
-
-***High level Overview:*** Using a Dremel to expose a cross-section of the cage, we attached the U-channels on the bottom and the sides of the cage, allowing us to slide in the plexiglass fitted with the Arduino and customized nose ports.
+As previously described in the [introduction](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb), the main objective of the project was to enable adolescent studies in mice. Our solution was to utilize their home cages as "operant boxes" so that we could capture 100% of their behavior during the adolescent stage. In this chapter, the standard rodent cage is modified for DIY-NAMIC. Using a Dremel to expose a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
 
 ### About the Rodent Cages
 
