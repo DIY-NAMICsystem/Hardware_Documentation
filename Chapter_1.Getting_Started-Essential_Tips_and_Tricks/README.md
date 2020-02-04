@@ -1,15 +1,13 @@
 # Chapter 1. Essential Tips and Tricks
 
-##### What you will learn:
-In-house tips and tricks that I learned (googled) that will be useful in making the DNAMIC (AIM) boxes.
+
 ____  
 ### Introduction
-
-Every engineer requires good tools and best practices to survive. They not only make the job much easier, but more importantly, they allow the engineer to be highly accurate and consistent. For example, imagine having to solder on something **WITHOUT** a soldering iron. How in the world would you do that?! I’m not an engineer myself but I’m going to share with you few essential tips and tricks that I learned (googled) along my Arduino journey that helped me finish the project and save me weeks of trouble. I’m hoping you’ll find these tips useful as well.
+This page covers some basic knowledge and skills for those less familiar with building electronic platforms. 
 
 ### 1. Multimeter
 
-Multimeters are by far the most useful and most important debugging tool you’ll have while finishing this project (or any electrical engineering project). If you don’t have one at hand, stop reading this right now and order one on Amazon. Seriously. It’s that important. [Amazon Link to Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_1_sspa?keywords=multimeter&qid=1571619926&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFINUcyVlJPTUk2S0gmZW5jcnlwdGVkSWQ9QTA4NTQ4Mzg1U0pNUlYxREUzN0QmZW5jcnlwdGVkQWRJZD1BMDAzNzc5MTNNMU05T1dXRVhWMEQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
+Multimeters are by far the most useful and most important debugging tool you’ll have while finishing this project (or any electrical engineering project). [Amazon Link to Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_1_sspa?keywords=multimeter&qid=1571619926&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFINUcyVlJPTUk2S0gmZW5jcnlwdGVkSWQ9QTA4NTQ4Mzg1U0pNUlYxREUzN0QmZW5jcnlwdGVkQWRJZD1BMDAzNzc5MTNNMU05T1dXRVhWMEQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
 
 Multimeters can measure a lot of things including continuity, resistance, voltage, current, capacitance etc. But the most useful functionality (in my opinion) is the continuity / diode testing mode. This functionality allows you to check if a diode is working or not (which has directionality), and whether two points in a circuit are electrically connected or not. The multimeter will beep (output of a piezo buzzer) if the two points are connected and will light up the LED if the cathode is connected to GND and anode is connected to PWR. But always remember to turn the knob to continuity / diode testing mode before testing anything! Otherwise the multimeter would be powered off.
 
@@ -33,7 +31,7 @@ Below is a summary I found on [Adafruit.com](https://learn.adafruit.com/multimet
 
 #### Using the multimeter for this project
 
-To make our DNAMIC boxes, we need the following major components: PCB / LEDs / IRs/ and solenoids.
+To make DIY-NAMIC boxes, the following major components are needed: PCB / LEDs / IRs/ and solenoids.
 
 Using the multimeter on the PCB is fairly straightforward. If you want to verify connections between two points, you can probe it using the clips. If It’s connected, you should hear a beep. Using the multimeter on LEDs is simple as well. Once you connect them correctly, ***(cathode to GND / anode to PWR)*** the LED will light up (you will not hear any beeps). For IR LEDs, you won’t “see” the IRs light up because human eyes can’t detect infrared light but ***there are [tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb) you can use to "see" the IRs***. For solenoids, it’s a little different story. If you test out the two leads, although the two leads are not touching each other, the multimeter will give you a beep. How could that be? Is there a short circuit? Did the solenoid valve get broken right out of the package?
 
