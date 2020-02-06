@@ -28,7 +28,7 @@
   <img src="readme_imgs/boxes_in_action.png" align=center width=400/><br>
 </p>
 
-**Figure 5:** *DNAMIC boxes in operation in the vivarium on a standard ventilated rack. Data is collected automatically by Processing software to a computer in the next room.*
+**Figure 5:** *DIY-NAMIC boxes in operation in the vivarium on a standard ventilated rack. Data is collected automatically by Processing software to a computer in the next room.*
 ___
 
 ### What is DIY-NAMIC?
@@ -63,13 +63,12 @@ ___
 
 The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
 
-AIM is divided into three different repositories. This repository contains the **hardware** build instructions for AIM. The [second repository](https://github.com/jhl0204/DNAMIC_Arduino_Software_Programs) contains the corresponding **behavioral paradigms** for AIM. The [last repository](https://github.com/jhl0204/DNAMIC_Data_Analysis) contains Python codes for **data analysis** of the behavioral output. Data analysis code is currently in development to create a python package.
+The online documentation is divided into three different repositories. The present repository contains the **hardware** build instructions, the [second repository](https://github.com/jhl0204/DNAMIC_Arduino_Software_Programs) contains the programs for the **behavioral paradigms**. The [last repository](https://github.com/jhl0204/DNAMIC_Data_Analysis) contains Python scripts for **data analysis** of the behavioral output. 
 
-The below chapters are rendered via the [Jupyter nbviewer](https://nbviewer.ipython.org/) and is read-only.
 
 #### Contents
 
-* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) Why we need Arduino Instrumental Modules (AIM)
+* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) 
 * [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
 * [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
 * [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
@@ -91,7 +90,7 @@ ____
 4. [Openmaze.org](http://openmaze.org/) - open source hardware and software for behavioral neuroscience
 5. [Openbehavior.com](http://openbehavior.com/) - repository of open source tools for advancing behavioral neuroscience research]
 
-
+DIY-NAMIC
 ### Development
 _____
 
@@ -102,10 +101,7 @@ _____
 - Component suggestions
 - Your own tips, tricks, and experiences for any hardware projects.
 
-- If you decide to make AIMs yourself, send us photos and any hacks/design modifications that you made! We would love to see how this project expands!
-
-
-Feel free to open an issue or submit a pull request. All contributions are welcome! - there is no minor contribution. If you're unfamiliar with pull request workflow, feel free to email me with your contributions to jun.ho.lee@dartmouth.edu.
+- If you decide to make DIY-NAMIC boxes yourself, send us photos and any hacks/design modifications that you made! We would love to see how this project expands! Feel free to open an issue or submit a pull request, or email jun.ho.lee@dartmouth.edu.
 
 
 ### Contributions and Thanks
