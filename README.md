@@ -61,7 +61,7 @@ Through self-initiated trials, mice can perform during their standard dark/activ
 ___
 ### Overview
 
-The purpose of this repository is to provide **hardware manuals, documentation, and code** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
+The purpose of this repository is to provide **hardware manuals, documentation, and code** for anyone who would like to build their own DIY-NAMIC boxes for use in behavioral neuroscience research.
 
 The online documentation is divided into three different repositories. The present repository contains the **hardware** build instructions, the [second repository](https://github.com/jhl0204/DNAMIC_Arduino_Software_Programs) contains the programs for the **behavioral paradigms**. The [last repository](https://github.com/jhl0204/DNAMIC_Data_Analysis) contains Python scripts for **data analysis** of the behavioral output. 
 
@@ -90,7 +90,7 @@ ____
 4. [Openmaze.org](http://openmaze.org/) - open source hardware and software for behavioral neuroscience
 5. [Openbehavior.com](http://openbehavior.com/) - repository of open source tools for advancing behavioral neuroscience research]
 
-DIY-NAMIC
+
 ### Development
 _____
 
