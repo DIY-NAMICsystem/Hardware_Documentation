@@ -1,5 +1,5 @@
 
-# Dartmouth-Nautiyal Arduino Modular Instrumental Conditioning (DNAMIC) Boxes for Behavioral Neuroscientists
+# DIY-Nautiyal Arduino Modular Instrumental Conditioning (DIY-NAMIC) Boxes for Behavioral Neuroscientists
 
 
 <p align="center">
@@ -31,14 +31,14 @@
 **Figure 5:** *DNAMIC boxes in operation in the vivarium on a standard ventilated rack. Data is collected automatically by Processing software to a computer in the next room.*
 ___
 
-### What is DNAMIC?
+### What is DIY-NAMIC?
 
-The DNAMIC box is a customizable, low-cost apparatus for automated homecage operant behavioral testing. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components, the boxes enable 24-hour data collection, significantly increasing trials/day without food or water restriction, and allowing for self-initiated trials during rodent's dark/active phase.  
+The DIY-NAMIC box is a customizable, low-cost apparatus for automated homecage operant behavioral testing. Made with Arduino microprocessor, 3D printed parts, and various *off-the-shelf* components, the boxes enable 24-hour data collection, significantly increasing trials/day without food or water restriction, and allowing for self-initiated trials during rodent's dark/active phase.  
 
 Most importantly, this is an open-source project - any contributions / suggestions / feedback are welcome and appreciated!
 
 ___
-### Benefits of DNAMIC boxes.
+### Benefits of DIY-NAMIC boxes.
 
 1. Decreased Experiment Length
 Rodents have 24 hour access self-initiated trials allowing hundreds of trials per day. This allows for faster testing, reducing the number of days that many standard operant paradigms typically takes to run. This also permits testing during developmental time periods which can be very limited in rodents.
@@ -118,4 +118,4 @@ Thank you to undergraduate researchers **Bonnie Shea** and **Selin Capan** for a
 
 #### Contact
 
-For any questions or issues, contact the main author, **Jun Ho Lee** at jun.ho.lee@dartmouth.edu or the corresponding author **Katherine Nautiyal** at katherine.nautiyal@dartmouth.edu.
+For any questions or issues, contact **Jun Ho Lee** at jun.ho.lee@dartmouth.edu or **Katherine Nautiyal** at katherine.nautiyal@dartmouth.edu.
