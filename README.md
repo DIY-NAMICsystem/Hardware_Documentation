@@ -40,19 +40,19 @@ Most importantly, this is an open-source project - any contributions / suggestio
 ___
 ### Benefits of DIY-NAMIC boxes.
 
-1. Decreased Experiment Length
+1. Decreased Experiment Length <br>
 Rodents have 24 hour access self-initiated trials allowing hundreds of trials per day. This allows for faster testing, reducing the number of days that many standard operant paradigms typically takes to run. This also permits testing during developmental time periods which can be very limited in rodents.
 
-2. Inexpensive compared to commercially available operant testing chambers
+2. Inexpensive compared to commercially available operant testing chambers <br>
 All the materials used to make one DNAMIC box cost around $200, compared to$4000-$10,000 for the commercially-available units, which have limited customizability.
 
-3. No food or water restriction
+3. No food or water restriction <br>
 Mice consume their normal daily intake of water, and no food deprivation is required.  The sated condition is important for the interpretation of many behavioral effects.  Additionally, this allows testing during development when food/water deprivation can be deleterious to growth.
 
-4. Reduced daily experimenter effort
+4. Reduced daily experimenter effort <br>
 There is minimal daily effort required from the experimenter, since mice are living in their homecage, and data is logged in realtime.
 
-5. More ethologically-relevant testing
+5. More ethologically-relevant testing <br>
 Through self-initiated trials, mice can perform during their standard dark/active phase of the light-dark cycle. 
 
 There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]().
