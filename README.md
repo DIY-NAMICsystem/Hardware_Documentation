@@ -44,7 +44,7 @@ ___
 Rodents have 24 hour access self-initiated trials allowing hundreds of trials per day. This allows for faster testing, reducing the number of days that many standard operant paradigms typically takes to run. This also permits testing during developmental time periods which can be very limited in rodents.
 
 2. Inexpensive compared to commercially available operant testing chambers <br>
-All the materials used to make one DNAMIC box cost around $200, compared to$4000-$10,000 for the commercially-available units, which have limited customizability.
+All the materials used to make one DIY-NAMIC box cost around $200, compared to$4000-$10,000 for the commercially-available units, which have limited customizability.
 
 3. No food or water restriction <br>
 Mice consume their normal daily intake of water, and no food deprivation is required.  The sated condition is important for the interpretation of many behavioral effects.  Additionally, this allows testing during development when food/water deprivation can be deleterious to growth.
@@ -55,13 +55,13 @@ There is minimal daily effort required from the experimenter, since mice are liv
 5. More ethologically-relevant testing <br>
 Through self-initiated trials, mice can perform during their standard dark/active phase of the light-dark cycle. 
 
-There are other key benefits to using AIM and you can find a complete list of benefits and advantages in the [Introduction]().
+
 
 
 ___
 ### Overview
 
-The purpose of this repository is to provide **hardware manuals and documentations** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
+The purpose of this repository is to provide **hardware manuals, documentation, and code** for anyone who would like to build their own AIM for use in behavioral neuroscience research. This manual is intended for behavioral neuroscientists without previous experience in engineering or computer science. Therefore the manuals sometimes include explanations on the inner workings of major components used in AIM.
 
 The online documentation is divided into three different repositories. The present repository contains the **hardware** build instructions, the [second repository](https://github.com/jhl0204/DNAMIC_Arduino_Software_Programs) contains the programs for the **behavioral paradigms**. The [last repository](https://github.com/jhl0204/DNAMIC_Data_Analysis) contains Python scripts for **data analysis** of the behavioral output. 
 
