@@ -1,6 +1,5 @@
 
-# DIY-Nautiyal Arduino Modular Instrumental Conditioning (DIY-NAMIC) Boxes for Behavioral Neuroscientists
-
+# DIY-Nautiyal Arduino Modular Instrumental Conditioning (DIY-NAMIC) Boxes
 
 <p align="center">
     <img src="https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif" align=center width=500/><br>
@@ -79,7 +78,8 @@ The online documentation is divided into three different repositories. The prese
 * [**Chapter 8 - Wiring and Soldering**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_8.Wiring_and_Soldering/8_Wiring_and_Soldering_vF.ipynb)
 * [**Chapter 9 - Final Assembly**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_9.Final_Assembly/9_Final_Assembly_vF.ipynb)
 
-* [**Appendix - Bill of Materials**](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
+* [**Appendix - Bill of Materials**](https://github.com/jhl0204/
+-Hardware-Documentations/wiki/Bill-of-Materials)
 
 ____
 ### Other open-source projects in the behavioral neuroscience community
