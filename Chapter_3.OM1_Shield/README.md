@@ -1,19 +1,11 @@
-# Chapter 3. OM1 Shield (soldering the components)
+# Chapter 3. OM1 Shield
 
-#### What you will learn:
+Arduino shields allow added functionalities to the basic microprocessor.  DIY-NAMIC boxes require this because of the additional voltage needed for the solenoid components (anove what the ATMEGA328P microprocessor can handle).  The build protocol described here starts with a printed circuit board onto which necessary components are soldered on.  The OpenMaze.org OM1 shield (designed by [openmaze.org](http://openmaze.org/)) is used here.
 
-Soldering on the necessary components to make a functioning OM1 Shield
-____
-
-One of the great things about Arduinos is that you can add various functionalities on top of the bare-bone Arduino. You can do this with Arduino shields, which you can stack on top of the Arduino to add new functionalities. These shields allow the Arduino to connect to WiFi, Ethernet, and even power up components that require more voltage than its microprocessor (ATMEGA328P) can normally handle. Shields usually come shipped ready to be used with Arduinos, but if you're building one from scratch (from printed circuit boards), you'll have to add some components. Our lab ordered PCBs to build a compatible shield from scratch and in this section, we will go through the steps on how to attach the necessary components to make a functioning OM1 shield (designed by [openmaze.org](http://openmaze.org/)).
-
-### OM1 Shield
-
-One of my Principal Investigator's colleague has already implemented Arduino shields (OpenMaze 1 – OM1 for short) to run his own behavioral experiments and luckily for us, the designs were open source. You can find details about the the shield [here](www.openmaze.org). To give you a brief summary however, these are the major features of the OM1 shield:
+### Components added to the OM1 Shield
 
 1)	7 pins broken out to Power-Ground-Input-Output (PGIO) ports (red box)  
 > **IMPORTANT:** Breakout pins 7,8,9,10 are not connected to normal Arduino power. In order to supply 5V power to these 4 breakout pins, you must connect the pink circle (arrow) with the other pink circle with a jumper wire. For 12V power, connect the pink circle (arrow) with the green circle (refer to PCB connection diagram for explanation).  
-
 2)	socket for the H-bridge chip (green box)  
 3)	4 pins broken out for solenoid valves (blue box)  
 4)	a connector for MPR121 capacitive touch sensor (yellow box) - won’t be using in the lab  
