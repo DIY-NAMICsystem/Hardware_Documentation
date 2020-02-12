@@ -1,6 +1,6 @@
 # Chapter 3. OM1 Shield
 
-Arduino shields allow added functionalities to the basic microprocessor.  DIY-NAMIC boxes require this because of the additional voltage needed for the solenoid components (anove what the ATMEGA328P microprocessor can handle).  The build protocol described here starts with a printed circuit board onto which necessary components are soldered on.  The OpenMaze.org OM1 shield (designed by [openmaze.org](http://openmaze.org/)) is used here.
+Arduino shields allow functionalities to be added to the basic microprocessor.  DIY-NAMIC boxes require this because of the additional voltage needed for the solenoid components (anove what the ATMEGA328P microprocessor can handle).  The build protocol described here starts with a printed circuit board onto which necessary components are soldered on.  The OpenMaze.org OM1 shield (designed by [openmaze.org](http://openmaze.org/)) is used here.
 
 ### Components added to the OM1 Shield
 
@@ -8,7 +8,7 @@ Arduino shields allow added functionalities to the basic microprocessor.  DIY-NA
 > **IMPORTANT:** Breakout pins 7,8,9,10 are not connected to normal Arduino power. In order to supply 5V power to these 4 breakout pins, you must connect the pink circle (arrow) with the other pink circle with a jumper wire. For 12V power, connect the pink circle (arrow) with the green circle (refer to PCB connection diagram for explanation).  
 2)	socket for the H-bridge chip (green box)  
 3)	4 pins broken out for solenoid valves (blue box)  
-4)	a connector for MPR121 capacitive touch sensor (yellow box) - won’t be using in the lab  
+4)	a connector for MPR121 capacitive touch sensor (yellow box) - not used in this version of DIY-NAMIC boxes  
 
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_1.png?raw=true" align=center width=300/> <br><br>
