@@ -1,8 +1,8 @@
 # Chapter 3. OM1 Shield
 
-Arduino shields allow functionalities to be added to the basic microprocessor.  DIY-NAMIC boxes require this because of the additional voltage needed for the solenoid components (anove what the ATMEGA328P microprocessor can handle).  The build protocol described here starts with a printed circuit board onto which necessary components are soldered on.  The OpenMaze.org OM1 shield (designed by [openmaze.org](http://openmaze.org/)) is used here.
+Arduino shields allow functionalities to be added to the basic microprocessor.  DIY-NAMIC boxes require this because of the additional voltage needed for the solenoid components (above what the ATMEGA328P microprocessor can handle).  The build protocol described here starts with a printed circuit board onto which necessary components are soldered on.  The OpenMaze.org OM1 shield was designed by [openmaze.org](http://openmaze.org/)), and purchased from OSH Park https://oshpark.com/shared_projects/ea7NpG7p.
 
-### Components added to the OM1 Shield
+### OM1 Printed circuit board 
 
 1)	7 pins broken out to Power-Ground-Input-Output (PGIO) ports (red box)  
 > **IMPORTANT:** Breakout pins 7,8,9,10 are not connected to normal Arduino power. In order to supply 5V power to these 4 breakout pins, you must connect the pink circle (arrow) with the other pink circle with a jumper wire. For 12V power, connect the pink circle (arrow) with the green circle (refer to PCB connection diagram for explanation).  
@@ -44,9 +44,8 @@ For more details and where to purchase them, refer to the [Bill of Materials](ht
 
 ##### **What is a H-Bridge? 
 
-> H-bridges are electric circuits that “amplify” low power signals. Since Arduinos have a 5V limit, H-bridges are used to power solenoids which require 9V input. H-bridges are also commonly used to drive motors using Arduinos. The H-bridge we are using is a dual H-Bridge motor driver (L293D) that can run four solenoids at once with a limit of 600mA per channel.
-
-Links for more learning:   
+> H-bridges are electric circuits that “amplify” low power signals. Since Arduinos have a 5V limit, H-bridges are used to power solenoids which require 9V input. H-bridges are also commonly used to drive motors using Arduinos. The H-bridge we are using is a dual H-Bridge motor driver (L293D) that can run four solenoids at once with a limit of 600mA per channel. The OM1 shield allows for 1 H-bridge.
+Links for more information:   
 1) [Making H-Bridge on a Breadboard](https://www.instructables.com/id/H-Bridge-on-a-Breadboard/)  
 2) [Basics of H-Bridge](http://www.modularcircuits.com/blog/articles/h-bridge-secrets/h-bridges-the-basics/)  
 3) [Driving a DC Motor using H-Bridge](http://hades.mech.northwestern.edu/index.php/Driving_a_high_current_DC_Motor_using_an_H-bridge)  
