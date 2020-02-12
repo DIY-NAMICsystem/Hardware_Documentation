@@ -62,7 +62,7 @@ Components are soldered to the OM1 shield according to the diagram below. For be
 
 ### Note on the Chip Socket
 
-The chip socket and the H-bridge chip have directionality. When soldering on the chip socket and inserting the H-bridge chip, make sure the semicircle is aligned according to the arrow. The semicircle in the chip determines the location of pin 1. As can be seen from **Figure 6**, pin 1 starts from the upper left corner where the semicircle is located. For more details on how the H-bridge connects to the solenoid, see the diagram below **Figure 6**. Also you might have realized that the socket doesn’t actually have directionality (only H-Bridges do). However, I do recommend aligning the socket as well since it would be easier to remember the direction when inserting in the H-bridge.
+The chip socket and the H-bridge chip have directionality. When soldering on the chip socket and inserting the H-bridge chip, make sure the semicircle is aligned according to the arrow. The semicircle in the chip determines the location of pin 1. As can be seen from **Figure 6**, pin 1 starts from the upper left corner where the semicircle is located. For more details on how the H-bridge connects to the solenoid, see the diagram below While the socket doesn’t actually have directionality (only H-Bridges do), it is recommened to align the socket to ensured proper H-bridge directionality.
 
 <p align="center">
     <img title = "figure5" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_5.png?raw=true" align=center width=300/><br><br>
@@ -74,7 +74,8 @@ The chip socket and the H-bridge chip have directionality. When soldering on the
     <b><i>Figure 6:</b> Diagram of H-bridge used in OM1 Shield. <a href="http://www.openmaze.org/"> Source </a> </i>
 </p>
 
-### Finished Shield
+### Attaching the shield to the Ardunino UNO
+Once the components are soldered to the OM1 PCB shield, the shield is attached to the Arduino via the stacking headers
 
 <p align="center">
     <img title = "figure7" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_7.png?raw=true" align=center width=300/><br><br>
