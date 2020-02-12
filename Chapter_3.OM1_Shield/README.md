@@ -16,34 +16,35 @@ Arduino shields allow functionalities to be added to the basic microprocessor.  
 
 </p>
 
-Note that the picture above is a bare bone shield. The electrical connections are all imprinted within the printed circuit board (PCB), but it won’t work unless we attach the necessary components and the headers! This section will detail the steps on how to solder on the necessary components.
+Note that the picture above is the bare printed circuit board (PCB) on to which the necessary components must be attacehd! This section will detail the steps to solder on the necessary components.
 
 <p align="center">
     <img title = "figure2" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_2.png?raw=true" align=center width=300/><br><br>
     <b><i>Figure 2:</b> Small version of all the electrical connections within the OM1 Shield. Red and blue lines are used just to differentiate connections. They do not carry any meaning.
 </p>
 
-### Necessary Components
+### Components
 
-Below is a picture of the necessary components that we have to solder on to the OM1 shield.
+Below is a picture of the components which are soldered on to the OM1 shield.
 
 <p align="center">
     <img title = "figure3" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_3.png?raw=true" align=center width=300/><br><br>
     <b><i>Figure 3:</b> List of components needed to make a functioning OM1 Shield.</i>
 </p>
 
-The following is the list of bare minimum materials necessary to make a functioning OM1 Shield. For more details and where to purchase them, refer to the [Bill of Materials](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
+Components for building shield:
+For more details and where to purchase them, refer to the [Bill of Materials](https://github.com/jhl0204/AIM-Hardware-Documentations/wiki/Bill-of-Materials)
 
-- OM1 Shield
+- OM1 Shield Printed Circuit Board
 - pushbutton
 - 2.1mm DC Barrel Jack
 - Stacking Headers (1x10 (1) / 1x8 (2) / 1x6 (1))
-- Chip Socket + H Bridge
+- Chip Socket + H Bridge**
 - Female + Male Headers
 
-##### What is a H-Bridge? (optional)
+##### **What is a H-Bridge? 
 
-> At this point you might be wondering what a H-bridge is. (If you haven’t been wondering, that’s fine too – you can skip this part). There are a bunch of online resources that explain how H-bridges work and in which settings they are used. I won’t go into those details because all the “under the hood” intricacies are not important for our purposes. We only need to know that H-bridges are electric circuits that can reverse the polarity of the voltage and that they can “amplify” low power signals to high power signals. That is how Arduinos, which has a 5V limit, use H-bridges to power up solenoids which require 9V input. H-bridges are also used widely in robotics to drive motors forward and backward. For reference though, we are using a dual H-Bridge motor driver (L293D) that can run four solenoids at once with a limit of 600mA per channel.
+> H-bridges are electric circuits that “amplify” low power signals. Since Arduinos have a 5V limit, H-bridges are used to power solenoids which require 9V input. H-bridges are also commonly used to drive motors using Arduinos. The H-bridge we are using is a dual H-Bridge motor driver (L293D) that can run four solenoids at once with a limit of 600mA per channel.
 
 Links for more learning:   
 1) [Making H-Bridge on a Breadboard](https://www.instructables.com/id/H-Bridge-on-a-Breadboard/)  
@@ -52,7 +53,7 @@ Links for more learning:
 
 ### Soldering Diagram
 
-Once you have all the components ready, you can just solder those components according to the diagram below. For best solder results however, refer to tips 2 and 3 from [Essential Tips and Tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb) before starting.
+Components are soldered to the OM1 shield according to the diagram below. For best solder results however, refer to tips in [Essential Tips and Tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb) before starting.
 
 <p align="center">
     <img title = "figure4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_3.OM1_Shield/imgs/Figure_4.png?raw=true" align=center width=500/><br><br>
