@@ -76,8 +76,7 @@ The purpose of this repository is to provide **hardware manuals, documentation, 
 * [**Chapter 8 - Wiring and Soldering**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_8.Wiring_and_Soldering/8_Wiring_and_Soldering_vF.ipynb)
 * [**Chapter 9 - Final Assembly**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_9.Final_Assembly/9_Final_Assembly_vF.ipynb)
 
-* [**Appendix - Bill of Materials**](https://github.com/jhl0204/
--Hardware-Documentations/wiki/Bill-of-Materials)
+* [**Appendix - Bill of Materials**](https://github.com/DIY-NAMICsystem/master/Hardware_Documentation/Bill_of_Materials/)
 
 ____
 ### Other open-source projects in the behavioral neuroscience community
