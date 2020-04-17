@@ -32,7 +32,7 @@ This is how photo interrupters detect state changes in motion. For example, if a
 
 ### Photo Interrupter GP1A57HRJ00F
 
-Our lab uses the photo interrupter [GP1A57HRJ00F](https://www.sparkfun.com/products/9299). This is mainly because other labs tend to use it, so feel free to explore other options for photo interrupters if you have the time.  
+Our lab uses the photo interrupter [GP1A57HRJ00F](https://www.sparkfun.com/products/9299), but there are many similar options.  
 
 <p align="center">
     <img title = "figure3" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_3.png?raw=true" align=center width=300/><br><br>
