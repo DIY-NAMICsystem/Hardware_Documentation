@@ -3,31 +3,38 @@
 
 <p align="center">
     <img src="https://media.giphy.com/media/iKFyMgWnooZwu8bYSN/giphy.gif" align=center width=500/><br>
-    <b><i>Figure 1:</b> Mouse retrieving water reward during behavioral testing in the DNAMIC box.</i>
+    <i> Mouse retrieving water reward during behavioral testing in the DIY-NAMIC system </i>
 </p>
 
-<p align="left">
-  <img src="readme_imgs/diagonal_view.jpg" align=center width=300/><br>
-    <b><i>Figure 2:</b> Diagonal View </i>
-</p>
+
 
 <p align="left">
-  <img src="readme_imgs/side_view.png" align=center width=300/><br>
-    <b><i>Figure 3:</b> Side View </i>
-</p>
-
-<p align="left">
-  <img src="readme_imgs/top_view.jpg" align=center width=300/><br>
-    <b><i>Figure 4:</b> Top View </i>
+  <img src="readme_imgs/IMG_3924.jpg" align=center width=300/><br>
+    <b><i> Assembled DIY-NAMIC hardware </b> </i>
     <br>
     <br>
 </p>
 
-<p align="center">
-  <img src="readme_imgs/boxes_in_action.png" align=center width=400/><br>
+<p align="left">
+  <img src="readme_imgs/IMG_3966edit.jpg" align=center width=300/><br>
+    <b><i> DIY-NAMIC cage </b></i>
 </p>
 
-**Figure 5:** *DIY-NAMIC boxes in operation in the vivarium on a standard ventilated rack. Data is collected automatically by Processing software to a computer in the next room.*
+<p align="left">
+  <img src="readme_imgs/cageviewedited.jpg" align=center width=300/><br>
+    <b><i> Mouse perspective </b> </i>
+    <br>
+    <br>
+</p>
+
+
+<p align="left">
+  <img src="readme_imgs/IMG_3961.jpg" align=center width=300/><br>
+    <b><i> DIY-NAMIC testing is compatible with ventilated high-density racked cages </b> </i>
+    <br>
+    <br>
+</p>
+
 ___
 
 ### What is DIY-NAMIC?
