@@ -6,15 +6,13 @@ Basics of IR photo interrupters and how to test them
 ____
 
 ### Introduction
-In any experiment, it doesn’t make sense both timewise and moneywise to just sit down and observe rodent behavior. If possible, we need to automate the process with machines. That’s what we will exactly do in this case – with sensors.
+Infrared (IR) photo interrupters are sensors that can detect behavioral responses (rodent nose poke breaking a beam).
 
-Infrared (IR) photo interrupters are handy sensors that can detect motion. Traditional Med Associates operant boxes utilize the photo interrupters to detect rodent nose pokes in receptacles. For the DNAMIC boxes, we will also be using the IR photo interrupters to detect rodent nose pokes.
-
-***Note:*** I use the words *IR photointerrupters* and *IR detectors* interchangeably to reference the same object.
+***Note:***IR photointerrupters* and *IR detectors* are used interchangeably here.
 
 ### What are IR detectors?
 
-IR detectors are composed of two things: IR LED and a photo transistor. The basic working principle is that light and electricity signals are constantly getting converted through a certain medium. Once powered on, the IR LED of the photo interrupter will emit infrared light. The photo transistor, which is located across from the IR LED, will catch that light and convert it back to an electrical signal.
+IR detectors are composed of: IR LED and a photo transistor. The basic working principle is that light and electricity signals are constantly getting converted through a certain medium. Once powered on, the IR LED of the photo interrupter will emit infrared light. The photo transistor, which is located across from the IR LED, will catch that light and convert it back to an electrical signal.
 
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_1.png?raw=true" align=center width=350/><br><br>
@@ -32,14 +30,14 @@ This is how photo interrupters detect state changes in motion. For example, if a
 
 ### Photo Interrupter GP1A57HRJ00F
 
-Our lab uses the photo interrupter [GP1A57HRJ00F](https://www.sparkfun.com/products/9299), but there are many similar options.  
+We use this photo interrupter [GP1A57HRJ00F](https://www.sparkfun.com/products/9299), but there are many similar options.  
 
 <p align="center">
     <img title = "figure3" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_3.png?raw=true" align=center width=300/><br><br>
     <b><i>Figure 3:</b> IR photo interrupter GP1A57HRJ00F </i>
 </p>
 
-Once you have the component, we have to power it up and connect it to our Arduino! To do that we will have to consult the [datasheet](https://www.sparkfun.com/datasheets/Components/GP1A57HRJ00F.pdf) for this particular photo interrupter since we don’t want to short the circuit prematurely. Below is an internal connection diagram from the official datasheet. It looks very confusing if you’re new to electronics. It certainly was for me when I started out! Thankfully I was able to find a “translated” version of the diagram (diagram 4). Note that diagram 3 and diagram 4 are top-down views of the photo interrupter. Also note that in diagram 4, the placement of the resistor doesn’t matter – it could as well be connected to ground and it will work just fine (as long as it’s a serial connection).
+Once you have the component, it needs to be powered and connected to the Arduino! To do that, consult the [datasheet](https://www.sparkfun.com/datasheets/Components/GP1A57HRJ00F.pdf) for this particular photo interrupter so it doesn't short the circuit prematurely. Below is an internal connection diagram from the official datasheet, and a “translated” version of the diagram (diagram 4). Note that diagram 3 and diagram 4 are top-down views of the photo interrupter. Also note that in diagram 4, the placement of the resistor doesn’t matter – it could as well be connected to ground and it will work just fine (as long as it’s a serial connection).
 
 <p align="center">
     <img title = "figure4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_4.png?raw=true" align=center width=350/><br><br>
@@ -53,18 +51,18 @@ Once you have the component, we have to power it up and connect it to our Arduin
 
 ### Breaking off the IR photo interrupter
 
-Those of you who have keen eyes might have noticed from **Figure 4** already, but the IR LED and the photo transistor are not connected electrically! This means that we can break the IR in half and still get it to work as a photo interrupter as long as we align the light path of the IR LED to the photo transistor (Essentially the photo transistor needs nothing but infrared signals as input). This will effectively increase the working distance between the two components and allow us to be very flexible. As you might have already guessed, this is what we have exactly done in the lab.
+The IR LED and the photo transistor are not connected electrically, so breaking it in half is possible as long as the light path of the IR LED to the photo transistor are aligned. This will effectively change the working distance between the two components.
 
 <p align="center">
     <img title = "figure6" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_6_2.png?raw=true" align=center width=350/><br><br>
     <b><i>Figure 6:</b> IR photo interrupter broken into IR LED <b>(green)</b> and photo transistor <b>(yellow).</b>  </i>
 </p>
 
-IR LEDs are LEDs as well, so we also want to solder on current-limiting resistors to save the LEDs and the board. Just so that we are consistent with the regular LEDs, we will solder on the resistors to the shorter lead. Interestingly for GP1A57HRJ00F IR LED, the shorter lead happens to be the anode (opposite from regular LEDs). Note again that you may connect the resistor to the cathode as well and the current will still be limited. The important part is connecting the anode to PWR and cathode to GND when you are actually wiring the photo interrupters to the Arduino.
+IR LEDs are LEDs which also need current-limiting resistors. Interestingly for GP1A57HRJ00F IR LED, the shorter lead happens to be the anode (opposite from regular LEDs). Note again that you may connect the resistor to the cathode as well and the current will still be limited. The important part is connecting the anode to PWR and cathode to GND when you are actually wiring the photo interrupters to the Arduino.
 
 ### Testing the IR LEDs
 
-Human eyes have a limited wavelength detection spectrum. We can only detect wavelengths of light that are approximately 400 $nm$ – 700 $nm$. Therefore, it is literally impossible to “see” infrared light with the naked eye and to “see” if the IR LEDs are working or not.
+Human eyes have a limited wavelength detection spectrum. We can only detect wavelengths of light that are approximately 400 $nm$ – 700 $nm$. Therefore, it is not possible to “see” infrared light with the naked eye and to “see” if the IR LEDs are working or not.
 
 <p align="center">
     <img title = "figure7" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_7.png?raw=true" align=center width=350/><br><br>
