@@ -11,7 +11,7 @@ Solenoids (from the Lee Company) are used to dispense liquid in the DIY-NAMIC sy
 
 ### Step-by-step Tutorial
 
-1. Get a 21G Needle (0.8 $mm$ x 50 $mm$) – Different gauge needles will output volumes at different rates. (Use a trial and error process to determine the solenoid on duration for a target output volume. With our components and a 21G needle, turning on the solenoid for 72 $ms$ results in 10 $ul$ of volume (water) output.
+1. Get a 21G Needle (0.8 mm x 50 mm) – Different gauge needles will output volumes at different rates. (Use a trial and error process to determine the solenoid on duration for a target output volume. With our components and a 21G needle, turning on the solenoid for 72 ms results in 10 ul of volume (water) output.
 
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_7.Component_Assembly-Reward_Spout/imgs/Figure_1.png?raw=true" align=center width=350/><br><br>
