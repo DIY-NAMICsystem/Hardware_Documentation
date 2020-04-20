@@ -1,14 +1,14 @@
 ### Introduction
 
-The DIY-NAMIC system utilizes a rodent homecage for behavioral testing. In this chapter, the standard rodent cage is modified for DIY-NAMIC. Using a Dremel to expose a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
+The DIY-NAMIC system utilizes a rodent homecage for behavioral testing. In this chapter, the standard rodent cage used in ventilated high-density racked systems is modified for use with the DIY-NAMIC system. Using a Dremel to expose a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
 
 ### Rodent Cages
 
 This section will require modification based on the available rodent caging systems.
 
-The plexiglass wall will also need to be modified to fit the relevant homecage [plexiglass design]() (LINK LINKE LINK to files within github repo)
+The plexiglass wall will also need to be modified to fit the relevant homecage [plexiglass design]() (https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Ponoko_Final)
 
-> This **location** was chosen due to the design of the cage hopper and the plexiglass. Positioning the U-channel at this location will minimize the gaps between the metal hopper and the plexiglass, preventing mice from escaping from their cages **(Figure 4 and Figure 5).**
+> This **location** was chosen due to the design of the cage hopper and the plexiglass. Positioning the U-channel at this location will minimize the gaps between the metal hopper and the plexiglass **(Figure 4 and Figure 5).**
 
 For the purposes of exposing the cross-section, draw a line at the 5cm mark (see yellow arrow) at an angle **(Figure 2)** on both sides of the cage. These lines will always be posterior relative to the bottom U-channel position and thus will serve as good guidelines for cutting the cage later.
 
@@ -46,7 +46,7 @@ When cutting the cage, make sure to cut the sides first. Remember that the sharp
     <b><i>Step 3:</b> All three sides (two sides + one bottom) have been cut and ready to be separated from the main cage body. </i>
 </p>
 
-The Dremel rotary tool will produce a lot of fine dust so work in a well-ventilated area. I worked inside the fume hood. After the initial cut, wash off the fine dust by running the cage under water. After thoroughly drying it, you may also want to use the belt grinder to sand down the sides for a smoother, cleaner finish.
+The Dremel rotary tool will produce a lot of fine dust so work in a well-ventilated area. After the initial cut, wash off the fine dust by running the cage under water. After thoroughly drying it, you may also want to use the belt grinder to sand down the sides for a smoother, cleaner finish.
 
 <p align="center">
     <img title = "step4" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_2.Modifying_Rodent_Cage/imgs/step_4.png?raw=true" align=center width=300/><br><br>
@@ -70,13 +70,9 @@ The Dremel rotary tool will produce a lot of fine dust so work in a well-ventila
     <b><i>End Goal:</b> Picture of the completed modified cage after attaching the U-channels </i>
 </p>
 
-Now it’s time to attach the U-Channels.
+Two U-channels (11.3cm long) will go on the sides and one U-channel (10.3cm long) will go on the bottom.
 
-For our cages, you will need to cut three pieces of U-channels. Two U-channels (11.3cm long) will go on the sides and one U-channel (10.3cm long) will go on the bottom.
-
-The U-channels will serve as guides for our plexiglass when we slide it in. Therefore, we want all three of them to align together and flat with the surface of the cage. It is easier to align all three of them together if we attach the bottom one first. That’s what we will do first.
-
-After attaching the bottom U-channel, let’s attach the side U-channels. Align the side U-channels by using the bottom U-channel as a reference point.
+The U-channels serve as guides for the plexiglassto be slid in. Therefore, all three should be aligned and flat with the surface of the cage. It is easier to align all three of them together if the bottom is attached first. Then, align the side U-channels by using the bottom U-channel as a reference point.
 
 <p align="center">
     <img title = "u1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_2.Modifying_Rodent_Cage/imgs/U-3.png?raw=true" align=center width=300/><br><br>
@@ -85,12 +81,12 @@ After attaching the bottom U-channel, let’s attach the side U-channels. Align 
 
 <p align="center">
     <img title = "u2" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_2.Modifying_Rodent_Cage/imgs/U-4.png?raw=true" align=center width=300/><br><br>
-    <b><i>Step 2:</b> Attaching the side U-channels. Align them using the bottom U-channel as a reference point. Use the same techniques as in <b> Step 1. </b> </i>
+    <b><i>Step 2:</b> Attaching the side U-channels. Align them using the bottom U-channel as a reference point. Use the same steps as in <b> Step 1. </b> </i>
 </p>
 
-#### Using Loctite Glue
+#### Using Loctite Glue, which allows for normal cage washing and high heat sanitization. 
 
-> When using Loctite glue, you should always clean both the surface you’re applying glue to and the surface where glue will interact with. In our case, those surfaces are the U-channels and the rodent cage. Wipe it down with water or ethanol so that any particles or dust will not interfere with the adhesion. After cleaning, apply Loctite glue generously and attach the U-channels to the rodent cage. 401 Loctite is very watery so you will have some time to wiggle the U-channel around if you didn’t get the placement correct the first time. To make sure there is a good adhesion, let the Loctite cure for a few hours, overnight if you have time.
+> After cleaning surfaces with ethanol, apply Loctite glue generously and attach the U-channels to the rodent cage. 401 Loctite is very watery so you will have some time to wiggle the U-channel around if you didn’t get the placement correct the first time. To make sure there is a good adhesion, let the Loctite cure for a few hours, overnight if you have time.
 
 Once the Loctite glue has cured and the U-channels are securely fastened, test out the alignment by sliding in your Plexiglass along the U-channel railings like in **Step 3**. Make sure to try the cage top as well to check for gaps!
 
