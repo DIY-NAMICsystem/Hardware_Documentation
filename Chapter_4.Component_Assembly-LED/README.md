@@ -6,25 +6,22 @@ Basics of LEDs and how to solder them on to the customized nose ports
 ___
 
 ### Introduction
-LEDs (light emitting diodes) are very cheap and abundant in our everyday lives. That’s why traditional Med Associates operant boxes use them for stimuli and why we are going to use them as well for the same purpose.
+LEDs (light emitting diodes) are incorporated into the customized nose ports to function as stimuli.
 
-For our operant boxes, we will be incorporating the LEDs into our customized nose ports.
-
-Below are some pictures of the LED in the noseports before we dive into the world of LEDs.
-
+\
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_1.png?raw=true" align=center width=300/><br><br>
-    <b><i>Figure 1:</b> It is a little hard to see, but the LED has been threaded through the holes in the noseports. <b>Left:</b> Front View / <b>Right:</b> Back View</i>
+    <b><i>Figure 1:</b> The LED has been threaded through the holes in the noseports. <b>Left:</b> Front View / <b>Right:</b> Back View</i>
 </p>
 
 <p align="center">
     <img title = "figure2" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_2.png?raw=true" align=center width=300/><br><br>
-    <b><i>Figure 2:</b> Now you can clearly see the blue LED in place! Using the multimeter to test the LEDs can be one way to weed out the faulty ones before soldering them in place. <b>Left:</b> Front View / <b>Right:</b> Back View</i>
+    <b><i>Figure 2:</b>  Using the multimeter to test the LED is helpful before soldering them in place. <b>Left:</b> Front View / <b>Right:</b> Back View</i>
 </p>
 
-### What are LEDs?
+### About LEDs
 
-A little primer on the LEDs before we actually venture too far in. LEDs, or diodes in general, have two polarized legs. One is the cathode (-) and the other is the anode (+). In LEDs, the cathode tip (-) is shorter than the anode (+). What I mean by polarized is that there is a directionality in the current flow. LEDs won’t light up unless you connect the cathode to ground (GND) and anode to power (PWR). Circuit diagram in **Figure 4** shows this directionality clearly. In order to power up the LED, current must flow from the anode to the cathod. And just a quick refresher for the engineering students reading this manual. The little diagonal arrows going in the 1 o’clock direction in the circuit symbol signifies that it is a light-emitting diode. Without the small arrows, the circuit symbol would signify a diode.
+LEDs, or diodes in general, have two polarized legs. One is the cathode (-) and the other is the anode (+). In LEDs, the cathode tip (-) is shorter than the anode (+). What I mean by polarized is that there is a directionality in the current flow. LEDs won’t light up unless you connect the cathode to ground (GND) and anode to power (PWR). Circuit diagram in **Figure 4** shows this directionality clearly. In order to power up the LED, current must flow from the anode to the cathod. And just a quick refresher for the engineering students reading this manual. The little diagonal arrows going in the 1 o’clock direction in the circuit symbol signifies that it is a light-emitting diode. Without the small arrows, the circuit symbol would signify a diode.
 
 <p align="center">
     <img title = "figure3" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_3.png?raw=true" align=center width=300/><br><br>
@@ -38,7 +35,7 @@ A little primer on the LEDs before we actually venture too far in. LEDs, or diod
 
 ### Importance of Current-Limiting Resistors
 
-There’s one more thing we need to discuss before we actually solder the LEDs in place. The brightness of an LED depends directly on how much current it draws. So the more current it draws, the brighter it is going to be. Sounds good right? Well… there is one catch. The problem with LEDs is that they are self-destructive. If possible, LEDs will try to draw as much power as it is allowed to draw. You can see this from **Figure 5**. The forward current increases exponentially as a function of forward voltage. (If the terms forward current ($I_{f}$), forward voltage ($V_{f}$)are unfamiliar to you, it simply means how much current and voltage is being run across that component.) Too much current equals too much power and too much heat, which will eventually kill the LED and potentially damage your whole circuit (aka your precious Arduino). The whole process is kind of like the life cycle of a star, where the star burns bright and meets a violent end, creating that black hole of a mess where you find that LEDs have damaged your IC chip and rendered it useless…
+The brightness of an LED depends directly on how much current it draws. So the more current it draws, the brighter it is going to be. The forward current increases exponentially as a function of forward voltage. (If the terms forward current ($I_{f}$), forward voltage ($V_{f}$)are unfamiliar to you, it simply means how much current and voltage is being run across that component.) Too much current equals too much power and too much heat, which will eventually burnout the LED and could also potentially damage the whole circuit (including the Arduino). 
 
 <p align="center">
     <img title = "figure5" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_5.png?raw=true" align=center width=350/><br><br>
