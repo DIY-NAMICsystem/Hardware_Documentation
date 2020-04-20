@@ -67,12 +67,12 @@ Through self-initiated trials, mice can perform during their standard dark/activ
 ___
 ### Overview
 
-The purpose of this repository is to provide **hardware manuals, documentation, and code** for anyone who would like to build their own DIY-NAMIC boxes for use in behavioral neuroscience research.
+The purpose of this repository is to provide **hardware manuals, documentation, and code** for anyone who would like to use and/or modify the DIY-NAMIC system.
 
 
 #### Contents
 
-* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github.com/DIY-NAMICsystem/Hardware_Documentation/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) 
+* [**Chapter 0 - Background and Introduction**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_0.Background_and_Introduction) 
 * [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github.com/DIY-NAMICsystem/Hardware_Documentation/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
 * [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
 * [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
