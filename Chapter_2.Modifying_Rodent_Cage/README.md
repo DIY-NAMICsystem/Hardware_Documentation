@@ -1,12 +1,12 @@
 ### Introduction
 
-The DIY-NAMIC system utilizes a rodent homecage for behavioral testing. In this chapter, the standard rodent cage used in ventilated high-density racked systems is modified for use with the DIY-NAMIC system. Using a Dremel to expose a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
+The DIY-NAMIC system utilizes a rodent homecage for behavioral testing. In this chapter, the standard rodent cage used in ventilated high-density racked systems is modified for use with the DIY-NAMIC system. Using a Dremel to cut a cross-section of the cage, U-channels are attached on the bottom and the sides of the cage, allowing a laser cut plexiglass wall to be slotted in.
 
 ### Rodent Cages
 
 This section will require modification based on the available rodent caging systems.
 
-The plexiglass wall will also need to be modified to fit the relevant homecage [plexiglass design]() (https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Ponoko_Final)
+The plexiglass wall will also need to be modified to fit the relevant homecage[(https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Ponoko_Final)].
 
 > This **location** was chosen due to the design of the cage hopper and the plexiglass. Positioning the U-channel at this location will minimize the gaps between the metal hopper and the plexiglass **(Figure 4 and Figure 5).**
 
