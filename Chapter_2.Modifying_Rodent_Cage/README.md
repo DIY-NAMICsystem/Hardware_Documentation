@@ -6,7 +6,7 @@ The DIY-NAMIC system utilizes a rodent homecage for behavioral testing. In this 
 
 This section will require modification based on the available rodent caging systems.
 
-The plexiglass wall will also need to be modified to fit the relevant homecage[(https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Ponoko_Final)].
+The plexiglass wall must be modified to fit the relevant homecage. They can be modified from our design [(https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Ponoko_Final)], and cut at Ponoko.com.
 
 > This **location** was chosen due to the design of the cage hopper and the plexiglass. Positioning the U-channel at this location will minimize the gaps between the metal hopper and the plexiglass **(Figure 4 and Figure 5).**
 
