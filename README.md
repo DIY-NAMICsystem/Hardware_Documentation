@@ -73,17 +73,17 @@ The purpose of this repository is to provide **hardware manuals, documentation, 
 #### Contents
 
 * [**Chapter 0 - Background and Introduction**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_0.Background_and_Introduction) 
-* [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github.com/DIY-NAMICsystem/Hardware_Documentation/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
-* [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
-* [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
-* [**Chapter 4 - Component Assembly - LED**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_4.Component_Assembly-LED/4_Component_Assembly_LED_vF.ipynb)
-* [**Chapter 5 - Component Assembly - Infrared Detectors**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb)
-* [**Chapter 6 - Component Assembly - Solenoid Valves**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_6.Component_Assembly-Solenoid_Valves/6_Component_Assembly_Solenoid_Valves_vF.ipynb)
-* [**Chapter 7 - Component Assembly - Reward Spout**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_7.Component_Assembly-Reward_Spout/7_Component_Assembly_Reward_Spout_vF.ipynb)
-* [**Chapter 8 - Wiring and Soldering**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_8.Wiring_and_Soldering/8_Wiring_and_Soldering_vF.ipynb)
-* [**Chapter 9 - Final Assembly**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_9.Final_Assembly/9_Final_Assembly_vF.ipynb)
+* [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks)
+* [**Chapter 2 - Modifying the Rodent Cage**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_2.Modifying_Rodent_Cage)
+* [**Chapter 3 - OM1 Shield**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_3.OM1_Shield)
+* [**Chapter 4 - Component Assembly - LED**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_4.Component_Assembly-LED)
+* [**Chapter 5 - Component Assembly - Infrared Detectors**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_5.Component_Assembly-Infrared_Detectors)
+* [**Chapter 6 - Component Assembly - Solenoid Valves**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_6.Component_Assembly-Solenoid_Valves)
+* [**Chapter 7 - Component Assembly - Reward Spout**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_7.Component_Assembly-Reward_Spout)
+* [**Chapter 8 - Wiring and Soldering**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_8.Wiring_and_Soldering)
+* [**Chapter 9 - Final Assembly**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Chapter_9.Final_Assembly)
 
-* [**Appendix - Bill of Materials**](https://github.com/DIY-NAMICsystem/master/Hardware_Documentation/Bill_of_Materials/)
+* [**Appendix - Bill of Materials**](https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Bill_of_Materials)
 
 ____
 ### Other open-source projects in the behavioral neuroscience community
@@ -97,15 +97,6 @@ ____
 
 ### Development
 _____
-
-##### What to Contribute
-
-- Inaccurate / incorrect information regarding components or explanations
-- Typos or grammar mistakes
-- Component suggestions
-- Your own tips, tricks, and experiences for any hardware projects.
-
-- If you decide to make DIY-NAMIC boxes yourself, send us photos and any hacks/design modifications that you made! We would love to see how this project expands! Feel free to open an issue or submit a pull request, or email jun.ho.lee@dartmouth.edu.
 
 
 ### Contributions and Thanks
