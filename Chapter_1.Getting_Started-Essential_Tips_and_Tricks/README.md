@@ -7,7 +7,7 @@ This page covers some basic knowledge and skills for those less familiar with bu
 
 ### 1. Multimeter
 
-Multimeters are by far the most useful and most important debugging tool you’ll have while finishing this project (or any electrical engineering project). [Amazon Link to Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_1_sspa?keywords=multimeter&qid=1571619926&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFINUcyVlJPTUk2S0gmZW5jcnlwdGVkSWQ9QTA4NTQ4Mzg1U0pNUlYxREUzN0QmZW5jcnlwdGVkQWRJZD1BMDAzNzc5MTNNMU05T1dXRVhWMEQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
+Multimeters are a useful debugging tool for this project. [Amazon Link to Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_1_sspa?keywords=multimeter&qid=1571619926&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFINUcyVlJPTUk2S0gmZW5jcnlwdGVkSWQ9QTA4NTQ4Mzg1U0pNUlYxREUzN0QmZW5jcnlwdGVkQWRJZD1BMDAzNzc5MTNNMU05T1dXRVhWMEQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
 
 Multimeters can measure a lot of things including continuity, resistance, voltage, current, capacitance etc. But the most useful functionality (in my opinion) is the continuity / diode testing mode. This functionality allows you to check if a diode is working or not (which has directionality), and whether two points in a circuit are electrically connected or not. The multimeter will beep (output of a piezo buzzer) if the two points are connected and will light up the LED if the cathode is connected to GND and anode is connected to PWR. But always remember to turn the knob to continuity / diode testing mode before testing anything! Otherwise the multimeter would be powered off.
 
@@ -33,14 +33,13 @@ Below is a summary I found on [Adafruit.com](https://learn.adafruit.com/multimet
 
 To make DIY-NAMIC boxes, the following major components are needed: PCB / LEDs / IRs/ and solenoids.
 
-Using the multimeter on the PCB is fairly straightforward. If you want to verify connections between two points, you can probe it using the clips. If It’s connected, you should hear a beep. Using the multimeter on LEDs is simple as well. Once you connect them correctly, ***(cathode to GND / anode to PWR)*** the LED will light up (you will not hear any beeps). For IR LEDs, you won’t “see” the IRs light up because human eyes can’t detect infrared light but ***there are [tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb) you can use to "see" the IRs***. For solenoids, it’s a little different story. If you test out the two leads, although the two leads are not touching each other, the multimeter will give you a beep. How could that be? Is there a short circuit? Did the solenoid valve get broken right out of the package?
+Using the multimeter on the PCB is fairly straightforward. If you want to verify connections between two points, you can probe it using the clips. If It’s connected, you should hear a beep. Using the multimeter on LEDs is simple as well. Once you connect them correctly, ***(cathode to GND / anode to PWR)*** the LED will light up (you will not hear any beeps). For IR LEDs, you won’t “see” the IRs light up because human eyes can’t detect infrared light but ***there are [tricks](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_5.Component_Assembly-Infrared_Detectors/5_Component_Assembly_IR_vF.ipynb) you can use to "see" the IRs***. For solenoids, it’s a little different story. If you test out the two leads, although the two leads are not touching each other, the multimeter will give you a beep. 
 
 <p align="center">
   <img title = "solenoid" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/test_branch/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/solenoid.jpg?raw=true" align=center width=200/><br><br>
   <b><i>Figure 3:</b> Red arrow indicates Power (PWR) and the black arrow indicates Ground (GND) </i>
 </p>   
-
-Quite the contrary. I talk about this in the [solenoid valve section](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_6.Component_Assembly-Solenoid_Valves/6_Component_Assembly_Solenoid_Valves_vF.ipynb), but the solenoids are actually continuous cylindrical coil of wire. The two leads you see in **Figure 3** are actually two ends of the same wire. The cylindrical coil is hidden inside the component. The exact resistance of the coil will depend on a lot of things, but it will tend to be very low and seem like a short circuit. If they don't have a low resistance, then it's likely that the wire has broken internally, and the valve is dead. So to sum it up, the “beep” you hear when you test out the continuity on the solenoid valves means that the valves are working!
+See here for more info: [solenoid valve section](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_6.Component_Assembly-Solenoid_Valves/6_Component_Assembly_Solenoid_Valves_vF.ipynb). The solenoids are actually continuous cylindrical coil of wire. The two leads you see in **Figure 3** are two ends of the same wire. The cylindrical coil is hidden inside the component. The exact resistance of the coil will depend on a lot of things, but it will tend to be very low and seem like a short circuit. If they don't have a low resistance, then it's likely that the wire has broken internally, and the valve is dead. So to sum it up, the “beep” you hear when you test out the continuity on the solenoid valves means that the valves are working!
 
 ### 2. Breaking off Pins
 
@@ -57,8 +56,7 @@ Breaking off header pins (especially female types) correctly is surprisingly dif
  </p>
 
 --------------
- In this section, I will be showing how to reliably get any number of pins you want. To do this however, we need to sacrifice one pin every time. For example, if we wanted to get a 1 x 4 header pin, then we would need to sacrifice the 5th pin. In the subsequent cells, I'll be demonstrating how to reliably get a fixed number of header pins using 1 x 4 header pin as an example.
-
+ 
  #### Making a 1x4 header pin
 
 1. As a first step, you need to remove the $(n+1)^{th}$ pin from the parent bulk of pins. You can see from the yellow arrow in **Figure 6** that the 5th pin has been removed since our goal is to get a 1 x 4 pin.
@@ -94,12 +92,11 @@ Breaking off header pins (especially female types) correctly is surprisingly dif
 
  ### 3. Soldering Components to PCB
 
-When soldering anything onto a PCB, you want the components to be flush with the board. Simply put, you don’t want your components to look like the X-marked headers in **Figure 1** below. This is surprisingly pretty tricky to do because headers tend to move around a lot when soldering. As you go through the pins in a serial fashion, you’ll quickly realize one small misalignment will lead to the misalignment of the whole component (like in **Figure 1** below) because solder joints cool down and harden very quickly. In this section, I’ll show you my tips on how to solder the components flush with the board.
+When soldering anything onto a PCB, you want the components to be flush with the board. Simply put, you don’t want your components to look like the X-marked headers in **Figure 1** below. This is surprisingly pretty tricky to do because headers tend to move around a lot when soldering. As you go through the pins in a serial fashion, you’ll quickly realize one small misalignment will lead to the misalignment of the whole component (like in **Figure 1** below) because solder joints cool down and harden very quickly.
 
 <p align="center">
   <img title = "Image_1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/imgs/Image_1.png?raw=true" align=center width=300/><br><br>
   <i> Examples of good soldered (first and third) and bad soldered headers (second and fourth) <i/>
-  <b> Note: Don't confuse this picture with the multimeter picture of Figure 1 above.</b>
  </p>
 
  #### Soldering Components Flush with the board
