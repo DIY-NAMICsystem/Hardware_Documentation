@@ -72,8 +72,8 @@ The purpose of this repository is to provide **hardware manuals, documentation, 
 
 #### Contents
 
-* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github/katenautiyal/DIY-NAMICsystem/master/Hardware_Documentation/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) 
-* [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
+* [**Chapter 0 - Background and Introduction**](https://nbviewer.ipython.org/github.com/DIY-NAMICsystem/Hardware_Documentation/blob/master/Chapter_0.Background_and_Introduction/0_Background_and_Introduction_vF.ipynb) 
+* [**Chapter 1 - Getting Started - Essential Tips and Tricks**](https://nbviewer.ipython.org/github.com/DIY-NAMICsystem/Hardware_Documentation/blob/master/Chapter_1.Getting_Started-Essential_Tips_and_Tricks/1_Essential_Tips_and%20Tricks_vF.ipynb)
 * [**Chapter 2 - Modifying the Rodent Cage**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_2.Modifying_Rodent_Cage/2_Modifying_the_Rodent_Cage_vF.ipynb)
 * [**Chapter 3 - OM1 Shield**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_3.OM1_Shield/3_OM1_Shield_vF.ipynb)
 * [**Chapter 4 - Component Assembly - LED**](https://nbviewer.ipython.org/github/jhl0204/DNAMIC-Hardware-Documentations/blob/master/Chapter_4.Component_Assembly-LED/4_Component_Assembly_LED_vF.ipynb)
