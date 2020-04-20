@@ -8,7 +8,6 @@ ___
 ### Introduction
 LEDs (light emitting diodes) are incorporated into the customized nose ports to function as stimuli.
 
-\
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_1.png?raw=true" align=center width=300/><br><br>
     <b><i>Figure 1:</b> The LED has been threaded through the holes in the noseports. <b>Left:</b> Front View / <b>Right:</b> Back View</i>
@@ -44,13 +43,13 @@ The brightness of an LED depends directly on how much current it draws. So the m
 
 Essentially this is why we need current-limiting resistors for LEDs. The name is self-explanatory. Resistors prevent excessive current flow to LEDs so that they may operate under maximum forward current ($I_{f}$) and not burn themselves out. Typically, the maximum forward current is 20mA for most LEDs.
 
-To calculate current-limiting resistor values for different types of LEDs, you can use this [resistor value calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor), but if you just want the short answer/want to play it safe, we use 1k Ω for our blue LEDs. Considering that blue LEDs typically have a forward voltage of 3.0V, this will effectively give us 2mA of operating current for the LED. For those of you who are more interested in learning to pick resistors for LEDs, check out [this blog](https://www.evilmadscientist.com/2012/resistors-for-leds/) from **evilmadscientist.com**
+To calculate current-limiting resistor values for different types of LEDs, you can use this [resistor value calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor), but if you just want the short answer/want to play it safe, we use 1k Ω for our blue LEDs. Considering that blue LEDs typically have a forward voltage of 3.0V, this will effectively give us 2mA of operating current for the LED. For more information on picking resistors for LEDs, check out [this blog](https://www.evilmadscientist.com/2012/resistors-for-leds/) from **evilmadscientist.com**
 
 ### Soldering LEDs
 
 #### Note of Warning
 
->Do a simple continuity test with a multimeter on the LEDs so that you know that the LEDs are not faulty. Remember to connect the anode to PWR (red) and cathode to GND (black). This is just to save you time in the long run so that you don’t spend 10 hours debugging a circuit board for a faulty LED. Additionally, if you have a breadboard and an Arduino in hand, you can just hook up a simple circuit with a resistor to test out that the LEDs are working.
+>Do a simple continuity test with a multimeter on the LEDs so that you know that the LEDs are not faulty. Remember to connect the anode to PWR (red) and cathode to GND (black). Additionally, if you have a breadboard and an Arduino in hand, you can just hook up a simple circuit with a resistor to test out that the LEDs are working.
 
 Since everything will be connected in series, the current limiting resistor can go on either anode or cathode. The LEDs will receive a dialed-down current no matter where you connect the resistor. To standardize things however, we will solder the resistor to the cathode (-) so that it will be easier to distinguish the cathode terminal. As I’ve mentioned before, the cathodes have shorter leads than anodes. If you’ve already cut the terminals however, and can’t distinguish the length, there are other ways to tell. If you look at **Figure 4**, you will see that the cathode tip has a flat surface on the LED. On the other hand, anodes will have a rounder surface. Since cathodes connect to GND, I like to remember this scheme as **“blunt is black”** (Electrical engineers typically color code PWR with red and GND with black).
 
