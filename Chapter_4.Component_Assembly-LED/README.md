@@ -1,12 +1,14 @@
-# Chapter 4. Component Assembly - LED (Light Emitting Diodes)
+# Chapter 4. Component Assembly - LEDs (Light Emitting Diodes) and Custom 3D printed noseports 
 
 #### What you will learn:
 
-Basics of LEDs and how to solder them on to the customized nose ports
+Basics of LEDs and how to assemble them with the custom nose ports
 ___
 
 ### Introduction
 LEDs (light emitting diodes) are incorporated into the customized nose ports to function as stimuli.
+
+Noseport printing is outsourced to Shapeways. The design files are located here: https://github.com/DIY-NAMICsystem/Hardware_Documentation/tree/master/Shapeways_Final
 
 <p align="center">
     <img title = "figure1" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_4.Component_Assembly-LED/imgs/Figure_1.png?raw=true" align=center width=300/><br><br>
