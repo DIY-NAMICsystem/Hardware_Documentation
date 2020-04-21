@@ -2,12 +2,12 @@
 
 #### What you will learn:
 
-How to build and finalize the box with the finished components.
+How to build and assemble the box with the finished components.
 ___
 
 ### Introduction
 
-Now that you have cut the modified cage, made the OM1 shield, and soldered components to the wires, it is time to bring all of them together! As the final section, this chapter will walk you through on how to finalize the DNAMIC box and put it to real use!
+With the modified cage, OM1 shield, and soldered components to the wires, they can now be assembled. 
 
 ### Materials
 
@@ -33,7 +33,7 @@ Solenoids + Tubing | Type A/B USB Cable | Screwdriver
      <b><i>Figure 2:</b> Materials Needed for noseport - plexiglass assembly</i>
  </p>
 
- Once you have nose ports with the correct wiring, screw in the nose ports to the plexiglass. The finished product should look something like this:
+ Once the nose ports have the components attached, they can be screwed to the plexiglass. The ront-plate should look something like this:
 
  <p align="center">
      <img title = "figure3" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_9.Final_Assembly/imgs/Figure_3.png?raw=true" align=center width=350/><br><br>
