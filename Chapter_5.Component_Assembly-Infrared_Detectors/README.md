@@ -1,8 +1,7 @@
 # Component Assembly - Infrared Photo Interrupters 
 
-#### What you will learn:
 
-Basics of IR photo interrupters and how to test them
+Basics of IR photo interrupters and how to test them.
 ____
 
 ### Introduction
@@ -77,5 +76,6 @@ Going slightly off topic, you can use this trick to "see" how remote controls co
     <img title = "figure8" src="https://github.com/selincapan/DNAMIC-Hardware-Documentations/blob/finished-mardown-files/Chapter_5.Component_Assembly-Infrared_Detectors/imgs/Figure_8.png?raw=true" align=center width=350/><br><br>
     <b><i>Figure 8:</b> The purple glow of infrared light seen under a phone camera </i>
 </p>
+
 
 ###### END OF CHAPTER
